@@ -1,5 +1,0 @@
-{
-    "port": "COM3",
-    "board": "arduino:sam:arduino_due_x_dbg",
-    "sketch": "Code\\blink\\blink.ino"
-}
