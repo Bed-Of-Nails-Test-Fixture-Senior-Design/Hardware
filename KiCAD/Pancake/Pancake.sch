@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -201,226 +201,772 @@ Text Label 2550 2100 0    50   ~ 0
 D12
 Text Label 2550 2000 0    50   ~ 0
 D13
-$Sheet
-S 6100 1200 1400 1075
-U 61024B6A
-F0 "DAC Output Filters" 50
-F1 "DAC_Filters.sch" 50
-F2 "IN1" I L 6100 1400 50 
-F3 "IN2" I L 6100 1950 50 
-F4 "OUT1" O R 7500 1400 50 
-F5 "OUT2" O R 7500 1975 50 
-$EndSheet
-Text Label 5800 1400 0    50   ~ 0
-DAC1
-Text Label 5800 1950 0    50   ~ 0
-DAC2
-Wire Wire Line
-	5800 1950 6100 1950
-Wire Wire Line
-	5800 1400 6100 1400
+Text Label 7375 1275 0    50   ~ 0
+ADC1
 $Comp
 L SamacSys_Parts:UA7808CKTTR IC?
 U 1 1 610B691F
-P 1750 5725
-F 0 "IC?" H 2175 6000 50  0000 C CNN
-F 1 "UA7808CKTTR" H 2175 5900 50  0000 C CNN
-F 2 "KTT-(R-PSFM-G3)" H 2800 5825 50  0001 L CNN
-F 3 "http://www.ti.com/lit/gpn/ua78" H 2800 5725 50  0001 L CNN
-F 4 "1.5-A, 40-V, Fixed Positive Linear Regulators" H 2800 5625 50  0001 L CNN "Description"
-F 5 "" H 2800 5525 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 2800 5425 50  0001 L CNN "Manufacturer_Name"
-F 7 "UA7808CKTTR" H 2800 5325 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-UA7808CKTTR" H 2800 5225 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA7808CKTTR?qs=mymQUwU5zNpQHVXEMgfwZQ%3D%3D" H 2800 5125 50  0001 L CNN "Mouser Price/Stock"
-F 10 "UA7808CKTTR" H 2800 5025 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/ua7808ckttr/texas-instruments" H 2800 4925 50  0001 L CNN "Arrow Price/Stock"
-	1    1750 5725
+P 1550 5200
+F 0 "IC?" H 1975 5475 50  0000 C CNN
+F 1 "UA7808CKTTR" H 1975 5375 50  0000 C CNN
+F 2 "KTT-(R-PSFM-G3)" H 2600 5300 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/ua78" H 2600 5200 50  0001 L CNN
+F 4 "1.5-A, 40-V, Fixed Positive Linear Regulators" H 2600 5100 50  0001 L CNN "Description"
+F 5 "" H 2600 5000 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 2600 4900 50  0001 L CNN "Manufacturer_Name"
+F 7 "UA7808CKTTR" H 2600 4800 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-UA7808CKTTR" H 2600 4700 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/UA7808CKTTR?qs=mymQUwU5zNpQHVXEMgfwZQ%3D%3D" H 2600 4600 50  0001 L CNN "Mouser Price/Stock"
+F 10 "UA7808CKTTR" H 2600 4500 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ua7808ckttr/texas-instruments" H 2600 4400 50  0001 L CNN "Arrow Price/Stock"
+	1    1550 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 610BC48B
-P 2150 6300
-F 0 "#PWR?" H 2150 6050 50  0001 C CNN
-F 1 "GND" H 2155 6127 50  0000 C CNN
-F 2 "" H 2150 6300 50  0001 C CNN
-F 3 "" H 2150 6300 50  0001 C CNN
-	1    2150 6300
+P 1950 5775
+F 0 "#PWR?" H 1950 5525 50  0001 C CNN
+F 1 "GND" H 1955 5602 50  0000 C CNN
+F 2 "" H 1950 5775 50  0001 C CNN
+F 3 "" H 1950 5775 50  0001 C CNN
+	1    1950 5775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2050 6225 2150 6225
+	1850 5700 1950 5700
 Wire Wire Line
-	2150 6300 2150 6225
-Connection ~ 2150 6225
+	1950 5775 1950 5700
+Connection ~ 1950 5700
 Wire Wire Line
-	2150 6225 2250 6225
+	1950 5700 2050 5700
 $Comp
 L Device:CP C?
 U 1 1 610BD5B6
-P 1700 6000
-F 0 "C?" H 1475 6050 50  0000 L CNN
-F 1 "0.33uF" H 1325 5950 50  0000 L CNN
-F 2 "" H 1738 5850 50  0001 C CNN
-F 3 "~" H 1700 6000 50  0001 C CNN
-	1    1700 6000
+P 1500 5475
+F 0 "C?" H 1275 5525 50  0000 L CNN
+F 1 "0.33uF" H 1125 5425 50  0000 L CNN
+F 2 "" H 1538 5325 50  0001 C CNN
+F 3 "~" H 1500 5475 50  0001 C CNN
+	1    1500 5475
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C?
 U 1 1 610BDDF4
-P 2650 6000
-F 0 "C?" H 2768 6046 50  0000 L CNN
-F 1 "0.1uF" H 2768 5955 50  0000 L CNN
-F 2 "" H 2688 5850 50  0001 C CNN
-F 3 "~" H 2650 6000 50  0001 C CNN
-	1    2650 6000
+P 2450 5475
+F 0 "C?" H 2568 5521 50  0000 L CNN
+F 1 "0.1uF" H 2568 5430 50  0000 L CNN
+F 2 "" H 2488 5325 50  0001 C CNN
+F 3 "~" H 2450 5475 50  0001 C CNN
+	1    2450 5475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1700 5725 1700 5850
+	1500 5200 1500 5325
 Wire Wire Line
-	1700 6150 1700 6225
+	1500 5625 1500 5700
 Wire Wire Line
-	1700 6225 2050 6225
-Connection ~ 2050 6225
+	1500 5700 1850 5700
+Connection ~ 1850 5700
 Wire Wire Line
-	2650 6150 2650 6225
+	2450 5625 2450 5700
 Wire Wire Line
-	2650 6225 2250 6225
-Connection ~ 2250 6225
+	2450 5700 2050 5700
+Connection ~ 2050 5700
 Wire Wire Line
-	2650 5850 2650 5725
+	2450 5325 2450 5200
 $Comp
 L power:+12V #PWR?
 U 1 1 610C35AE
-P 1525 5725
-F 0 "#PWR?" H 1525 5575 50  0001 C CNN
-F 1 "+12V" V 1540 5853 50  0000 L CNN
-F 2 "" H 1525 5725 50  0001 C CNN
-F 3 "" H 1525 5725 50  0001 C CNN
-	1    1525 5725
+P 1325 5200
+F 0 "#PWR?" H 1325 5050 50  0001 C CNN
+F 1 "+12V" V 1340 5328 50  0000 L CNN
+F 2 "" H 1325 5200 50  0001 C CNN
+F 3 "" H 1325 5200 50  0001 C CNN
+	1    1325 5200
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1700 5725 1525 5725
-Connection ~ 1700 5725
+	1500 5200 1325 5200
+Connection ~ 1500 5200
 $Comp
 L power:+8V #PWR?
 U 1 1 610C49B1
-P 3125 5625
-F 0 "#PWR?" H 3125 5475 50  0001 C CNN
-F 1 "+8V" V 3140 5753 50  0000 L CNN
-F 2 "" H 3125 5625 50  0001 C CNN
-F 3 "" H 3125 5625 50  0001 C CNN
-	1    3125 5625
-	1    0    0    -1  
-$EndComp
-Connection ~ 2650 5725
-Wire Wire Line
-	3125 5725 3125 5625
-Wire Wire Line
-	2650 5725 3125 5725
-$Comp
-L Device:R R?
-U 1 1 610C63F6
-P 3325 5975
-F 0 "R?" H 3395 6021 50  0000 L CNN
-F 1 "R" H 3395 5930 50  0000 L CNN
-F 2 "" V 3255 5975 50  0001 C CNN
-F 3 "~" H 3325 5975 50  0001 C CNN
-	1    3325 5975
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 610C69D6
-P 3325 6375
-F 0 "R?" H 3395 6421 50  0000 L CNN
-F 1 "R" H 3395 6330 50  0000 L CNN
-F 2 "" V 3255 6375 50  0001 C CNN
-F 3 "~" H 3325 6375 50  0001 C CNN
-	1    3325 6375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3325 6125 3325 6175
-Wire Wire Line
-	3325 5825 3325 5725
-Wire Wire Line
-	3325 5725 3125 5725
-Connection ~ 3125 5725
-$Comp
-L power:GND #PWR?
-U 1 1 610C71F9
-P 3325 6625
-F 0 "#PWR?" H 3325 6375 50  0001 C CNN
-F 1 "GND" H 3330 6452 50  0000 C CNN
-F 2 "" H 3325 6625 50  0001 C CNN
-F 3 "" H 3325 6625 50  0001 C CNN
-	1    3325 6625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3325 6525 3325 6625
-$Comp
-L pspice:OPAMP U?
-U 1 1 610C7FD6
-P 4200 6275
-F 0 "U?" H 4250 6550 50  0000 L CNN
-F 1 "NEED TO ASSIGN THIS A VALUE" H 4250 6450 50  0000 L CNN
-F 2 "" H 4200 6275 50  0001 C CNN
-F 3 "~" H 4200 6275 50  0001 C CNN
-	1    4200 6275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3900 6175 3325 6175
-Connection ~ 3325 6175
-Wire Wire Line
-	3325 6175 3325 6225
-Wire Wire Line
-	3900 6375 3775 6375
-Wire Wire Line
-	3775 6375 3775 6725
-Wire Wire Line
-	3775 6725 4550 6725
-Wire Wire Line
-	4550 6725 4550 6275
-Wire Wire Line
-	4550 6275 4500 6275
-$Comp
-L power:+4V #PWR?
-U 1 1 610C97C1
-P 5025 6275
-F 0 "#PWR?" H 5025 6125 50  0001 C CNN
-F 1 "+4V" V 5040 6403 50  0000 L CNN
-F 2 "" H 5025 6275 50  0001 C CNN
-F 3 "" H 5025 6275 50  0001 C CNN
-	1    5025 6275
+P 2725 5200
+F 0 "#PWR?" H 2725 5050 50  0001 C CNN
+F 1 "+8V" V 2740 5328 50  0000 L CNN
+F 2 "" H 2725 5200 50  0001 C CNN
+F 3 "" H 2725 5200 50  0001 C CNN
+	1    2725 5200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5025 6275 4550 6275
-Connection ~ 4550 6275
 $Comp
 L SamacSys_Parts:LF347N IC?
 U 1 1 612701DD
-P 3925 3125
-F 0 "IC?" H 4475 3390 50  0000 C CNN
-F 1 "LF347N" H 4475 3299 50  0000 C CNN
-F 2 "DIP794W56P254L1905H533Q14N" H 4875 3225 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lf347-n.pdf" H 4875 3125 50  0001 L CNN
-F 4 "Quad General-Purpose JFET-input Operational Amplifier" H 4875 3025 50  0001 L CNN "Description"
-F 5 "5.334" H 4875 2925 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 4875 2825 50  0001 L CNN "Manufacturer_Name"
-F 7 "LF347N" H 4875 2725 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-LF347N" H 4875 2625 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF347N?qs=DcvZ7Fltd5zOlQRQ%252BiS7vA%3D%3D" H 4875 2525 50  0001 L CNN "Mouser Price/Stock"
-F 10 "LF347N" H 4875 2425 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/lf347n/texas-instruments" H 4875 2325 50  0001 L CNN "Arrow Price/Stock"
-	1    3925 3125
+P 3550 2975
+F 0 "IC?" H 4100 3240 50  0000 C CNN
+F 1 "LF347N" H 4100 3149 50  0000 C CNN
+F 2 "DIP794W56P254L1905H533Q14N" H 4500 3075 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf347-n.pdf" H 4500 2975 50  0001 L CNN
+F 4 "Quad General-Purpose JFET-input Operational Amplifier" H 4500 2875 50  0001 L CNN "Description"
+F 5 "5.334" H 4500 2775 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 4500 2675 50  0001 L CNN "Manufacturer_Name"
+F 7 "LF347N" H 4500 2575 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-LF347N" H 4500 2475 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF347N?qs=DcvZ7Fltd5zOlQRQ%252BiS7vA%3D%3D" H 4500 2375 50  0001 L CNN "Mouser Price/Stock"
+F 10 "LF347N" H 4500 2275 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/lf347n/texas-instruments" H 4500 2175 50  0001 L CNN "Arrow Price/Stock"
+	1    3550 2975
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 612B11A5
+P 5100 1275
+AR Path="/61024B6A/612B11A5" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612B11A5" Ref="R?"  Part="1" 
+AR Path="/612B11A5" Ref="R?"  Part="1" 
+F 0 "R?" V 4893 1275 50  0000 C CNN
+F 1 "35.6k" V 4984 1275 50  0000 C CNN
+F 2 "" V 5030 1275 50  0001 C CNN
+F 3 "~" H 5100 1275 50  0001 C CNN
+	1    5100 1275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612B11AB
+P 5500 1475
+AR Path="/61024B6A/612B11AB" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612B11AB" Ref="R?"  Part="1" 
+AR Path="/612B11AB" Ref="R?"  Part="1" 
+F 0 "R?" V 5293 1475 50  0000 C CNN
+F 1 "29.4k" V 5384 1475 50  0000 C CNN
+F 2 "" V 5430 1475 50  0001 C CNN
+F 3 "~" H 5500 1475 50  0001 C CNN
+	1    5500 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 1275 5500 1325
+Wire Wire Line
+	5250 1275 5500 1275
+$Comp
+L power:GND #PWR?
+U 1 1 612B11B3
+P 5500 1625
+AR Path="/61024B6A/612B11B3" Ref="#PWR?"  Part="1" 
+AR Path="/612AE90B/612B11B3" Ref="#PWR?"  Part="1" 
+AR Path="/612B11B3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5500 1375 50  0001 C CNN
+F 1 "GND" H 5505 1452 50  0000 C CNN
+F 2 "" H 5500 1625 50  0001 C CNN
+F 3 "" H 5500 1625 50  0001 C CNN
+	1    5500 1625
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 1275
+Wire Wire Line
+	5500 1275 5825 1275
+$Sheet
+S 5825 1075 1400 1075
+U 61024B6A
+F0 "ADC Input Filters" 50
+F1 "ADC_Filters.sch" 50
+F2 "IN1" I L 5825 1275 50 
+F3 "IN2" I L 5825 2000 50 
+F4 "OUT1" O R 7225 1275 50 
+F5 "OUT2" O R 7225 2000 50 
+$EndSheet
+Wire Wire Line
+	7375 1275 7225 1275
+Text Label 7400 2000 0    50   ~ 0
+ADC2
+Wire Wire Line
+	7400 2000 7225 2000
+$Comp
+L Device:R R?
+U 1 1 612CCB75
+P 5100 2000
+AR Path="/61024B6A/612CCB75" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612CCB75" Ref="R?"  Part="1" 
+AR Path="/612CCB75" Ref="R?"  Part="1" 
+F 0 "R?" V 4893 2000 50  0000 C CNN
+F 1 "35.6k" V 4984 2000 50  0000 C CNN
+F 2 "" V 5030 2000 50  0001 C CNN
+F 3 "~" H 5100 2000 50  0001 C CNN
+	1    5100 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612CCB7B
+P 5500 2200
+AR Path="/61024B6A/612CCB7B" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612CCB7B" Ref="R?"  Part="1" 
+AR Path="/612CCB7B" Ref="R?"  Part="1" 
+F 0 "R?" V 5293 2200 50  0000 C CNN
+F 1 "29.4k" V 5384 2200 50  0000 C CNN
+F 2 "" V 5430 2200 50  0001 C CNN
+F 3 "~" H 5500 2200 50  0001 C CNN
+	1    5500 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2000 5500 2050
+Wire Wire Line
+	5250 2000 5500 2000
+$Comp
+L power:GND #PWR?
+U 1 1 612CCB83
+P 5500 2350
+AR Path="/61024B6A/612CCB83" Ref="#PWR?"  Part="1" 
+AR Path="/612AE90B/612CCB83" Ref="#PWR?"  Part="1" 
+AR Path="/612CCB83" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5500 2100 50  0001 C CNN
+F 1 "GND" H 5505 2177 50  0000 C CNN
+F 2 "" H 5500 2350 50  0001 C CNN
+F 3 "" H 5500 2350 50  0001 C CNN
+	1    5500 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 2000
+Wire Wire Line
+	5500 2000 5825 2000
+Wire Wire Line
+	2725 5200 2450 5200
+Connection ~ 2450 5200
+$Comp
+L SamacSys_Parts:ICL7660SCPAZ IC?
+U 1 1 612D55C8
+P 1350 6450
+F 0 "IC?" H 1950 6715 50  0000 C CNN
+F 1 "ICL7660SCPAZ" H 1950 6624 50  0000 C CNN
+F 2 "DIP794W56P254L958H533Q8N" H 2400 6550 50  0001 L CNN
+F 3 "http://docs-emea.rs-online.com/webdocs/1384/0900766b81384aa7.pdf" H 2400 6450 50  0001 L CNN
+F 4 "Doubler DC-DC converter,ICL7660SCPA" H 2400 6350 50  0001 L CNN "Description"
+F 5 "5.33" H 2400 6250 50  0001 L CNN "Height"
+F 6 "Intersil" H 2400 6150 50  0001 L CNN "Manufacturer_Name"
+F 7 "ICL7660SCPAZ" H 2400 6050 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "968-ICL7660SCPAZ" H 2400 5950 50  0001 L CNN "Mouser Part Number"
+F 9 "http://www.mouser.com/Search/ProductDetail.aspx?qs=9fLuogzTs8L9wBWHuQmDdA%3d%3d" H 2400 5850 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ICL7660SCPAZ" H 2400 5750 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/icl7660scpaz/intersil" H 2400 5650 50  0001 L CNN "Arrow Price/Stock"
+	1    1350 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61294645
+P 2775 6350
+F 0 "#PWR?" H 2775 6200 50  0001 C CNN
+F 1 "+12V" H 2790 6523 50  0000 C CNN
+F 2 "" H 2775 6350 50  0001 C CNN
+F 3 "" H 2775 6350 50  0001 C CNN
+	1    2775 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 6350 2775 6450
+Wire Wire Line
+	2775 6450 2550 6450
+$Comp
+L Device:C C?
+U 1 1 612975F1
+P 2750 6900
+AR Path="/61024B6A/612975F1" Ref="C?"  Part="1" 
+AR Path="/612AE90B/612975F1" Ref="C?"  Part="1" 
+AR Path="/612975F1" Ref="C?"  Part="1" 
+F 0 "C?" V 2498 6900 50  0000 C CNN
+F 1 "10uF" V 2589 6900 50  0000 C CNN
+F 2 "" H 2788 6750 50  0001 C CNN
+F 3 "~" H 2750 6900 50  0001 C CNN
+	1    2750 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 6129811D
+P 3025 6750
+F 0 "#PWR?" H 3025 6850 50  0001 C CNN
+F 1 "-12V" V 3040 6878 50  0000 L CNN
+F 2 "" H 3025 6750 50  0001 C CNN
+F 3 "" H 3025 6750 50  0001 C CNN
+	1    3025 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 6750 2750 6750
+Connection ~ 2750 6750
+Wire Wire Line
+	2750 6750 3025 6750
+$Comp
+L power:GND #PWR?
+U 1 1 6129985D
+P 2750 7050
+F 0 "#PWR?" H 2750 6800 50  0001 C CNN
+F 1 "GND" H 2755 6877 50  0000 C CNN
+F 2 "" H 2750 7050 50  0001 C CNN
+F 3 "" H 2750 7050 50  0001 C CNN
+	1    2750 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6129A519
+P 1350 6650
+F 0 "#PWR?" H 1350 6400 50  0001 C CNN
+F 1 "GND" H 1355 6477 50  0000 C CNN
+F 2 "" H 1350 6650 50  0001 C CNN
+F 3 "" H 1350 6650 50  0001 C CNN
+	1    1350 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6129B167
+P 950 6675
+AR Path="/61024B6A/6129B167" Ref="C?"  Part="1" 
+AR Path="/612AE90B/6129B167" Ref="C?"  Part="1" 
+AR Path="/6129B167" Ref="C?"  Part="1" 
+F 0 "C?" V 698 6675 50  0000 C CNN
+F 1 "10uF" V 789 6675 50  0000 C CNN
+F 2 "" H 988 6525 50  0001 C CNN
+F 3 "~" H 950 6675 50  0001 C CNN
+	1    950  6675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 6550 1100 6550
+Wire Wire Line
+	1100 6550 1100 6525
+Wire Wire Line
+	1100 6525 950  6525
+Wire Wire Line
+	950  6825 1150 6825
+Wire Wire Line
+	1150 6825 1150 6750
+Wire Wire Line
+	1150 6750 1350 6750
+Text Label 4675 1275 0    50   ~ 0
+AIN1
+Wire Wire Line
+	4950 1275 4675 1275
+Text Label 4675 2000 0    50   ~ 0
+AIN2
+Wire Wire Line
+	4950 2000 4675 2000
+Text Label 10500 1275 0    50   ~ 0
+ADC3
+$Comp
+L Device:R R?
+U 1 1 612A261F
+P 8225 1275
+AR Path="/61024B6A/612A261F" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612A261F" Ref="R?"  Part="1" 
+AR Path="/612A261F" Ref="R?"  Part="1" 
+F 0 "R?" V 8018 1275 50  0000 C CNN
+F 1 "35.6k" V 8109 1275 50  0000 C CNN
+F 2 "" V 8155 1275 50  0001 C CNN
+F 3 "~" H 8225 1275 50  0001 C CNN
+	1    8225 1275
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612A2625
+P 8625 1475
+AR Path="/61024B6A/612A2625" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612A2625" Ref="R?"  Part="1" 
+AR Path="/612A2625" Ref="R?"  Part="1" 
+F 0 "R?" V 8418 1475 50  0000 C CNN
+F 1 "29.4k" V 8509 1475 50  0000 C CNN
+F 2 "" V 8555 1475 50  0001 C CNN
+F 3 "~" H 8625 1475 50  0001 C CNN
+	1    8625 1475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8625 1275 8625 1325
+Wire Wire Line
+	8375 1275 8625 1275
+$Comp
+L power:GND #PWR?
+U 1 1 612A262D
+P 8625 1625
+AR Path="/61024B6A/612A262D" Ref="#PWR?"  Part="1" 
+AR Path="/612AE90B/612A262D" Ref="#PWR?"  Part="1" 
+AR Path="/612A262D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8625 1375 50  0001 C CNN
+F 1 "GND" H 8630 1452 50  0000 C CNN
+F 2 "" H 8625 1625 50  0001 C CNN
+F 3 "" H 8625 1625 50  0001 C CNN
+	1    8625 1625
+	1    0    0    -1  
+$EndComp
+Connection ~ 8625 1275
+Wire Wire Line
+	8625 1275 8950 1275
+$Sheet
+S 8950 1075 1400 1075
+U 612A2635
+F0 "sheet612A2618" 50
+F1 "ADC_Filters.sch" 50
+F2 "IN1" I L 8950 1275 50 
+F3 "IN2" I L 8950 2000 50 
+F4 "OUT1" O R 10350 1275 50 
+F5 "OUT2" O R 10350 2000 50 
+$EndSheet
+Wire Wire Line
+	10500 1275 10350 1275
+Text Label 10525 2000 0    50   ~ 0
+ADC4
+Wire Wire Line
+	10525 2000 10350 2000
+$Comp
+L Device:R R?
+U 1 1 612A263E
+P 8225 2000
+AR Path="/61024B6A/612A263E" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612A263E" Ref="R?"  Part="1" 
+AR Path="/612A263E" Ref="R?"  Part="1" 
+F 0 "R?" V 8018 2000 50  0000 C CNN
+F 1 "71.5k" V 8109 2000 50  0000 C CNN
+F 2 "" V 8155 2000 50  0001 C CNN
+F 3 "~" H 8225 2000 50  0001 C CNN
+	1    8225 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612A2644
+P 8625 2200
+AR Path="/61024B6A/612A2644" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612A2644" Ref="R?"  Part="1" 
+AR Path="/612A2644" Ref="R?"  Part="1" 
+F 0 "R?" V 8418 2200 50  0000 C CNN
+F 1 "26.1k" V 8509 2200 50  0000 C CNN
+F 2 "" V 8555 2200 50  0001 C CNN
+F 3 "~" H 8625 2200 50  0001 C CNN
+	1    8625 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8625 2000 8625 2050
+Wire Wire Line
+	8375 2000 8625 2000
+$Comp
+L power:GND #PWR?
+U 1 1 612A264C
+P 8625 2350
+AR Path="/61024B6A/612A264C" Ref="#PWR?"  Part="1" 
+AR Path="/612AE90B/612A264C" Ref="#PWR?"  Part="1" 
+AR Path="/612A264C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8625 2100 50  0001 C CNN
+F 1 "GND" H 8630 2177 50  0000 C CNN
+F 2 "" H 8625 2350 50  0001 C CNN
+F 3 "" H 8625 2350 50  0001 C CNN
+	1    8625 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 8625 2000
+Wire Wire Line
+	8625 2000 8950 2000
+Text Label 7800 1275 0    50   ~ 0
+AIN3
+Wire Wire Line
+	8075 1275 7800 1275
+Text Label 7800 2000 0    50   ~ 0
+AIN4
+Wire Wire Line
+	8075 2000 7800 2000
+Text Label 10500 2900 0    50   ~ 0
+ADC7
+$Comp
+L Device:R R?
+U 1 1 612A6E1E
+P 8225 2900
+AR Path="/61024B6A/612A6E1E" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612A6E1E" Ref="R?"  Part="1" 
+AR Path="/612A6E1E" Ref="R?"  Part="1" 
+F 0 "R?" V 8018 2900 50  0000 C CNN
+F 1 "71.5k" V 8109 2900 50  0000 C CNN
+F 2 "" V 8155 2900 50  0001 C CNN
+F 3 "~" H 8225 2900 50  0001 C CNN
+	1    8225 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612A6E24
+P 8625 3100
+AR Path="/61024B6A/612A6E24" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612A6E24" Ref="R?"  Part="1" 
+AR Path="/612A6E24" Ref="R?"  Part="1" 
+F 0 "R?" V 8418 3100 50  0000 C CNN
+F 1 "26.1k" V 8509 3100 50  0000 C CNN
+F 2 "" V 8555 3100 50  0001 C CNN
+F 3 "~" H 8625 3100 50  0001 C CNN
+	1    8625 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8625 2900 8625 2950
+Wire Wire Line
+	8375 2900 8625 2900
+$Comp
+L power:GND #PWR?
+U 1 1 612A6E2C
+P 8625 3250
+AR Path="/61024B6A/612A6E2C" Ref="#PWR?"  Part="1" 
+AR Path="/612AE90B/612A6E2C" Ref="#PWR?"  Part="1" 
+AR Path="/612A6E2C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8625 3000 50  0001 C CNN
+F 1 "GND" H 8630 3077 50  0000 C CNN
+F 2 "" H 8625 3250 50  0001 C CNN
+F 3 "" H 8625 3250 50  0001 C CNN
+	1    8625 3250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8625 2900
+Wire Wire Line
+	8625 2900 8950 2900
+$Sheet
+S 8950 2700 1400 1075
+U 612A6E34
+F0 "sheet612A6E17" 50
+F1 "ADC_Filters.sch" 50
+F2 "IN1" I L 8950 2900 50 
+F3 "IN2" I L 8950 3625 50 
+F4 "OUT1" O R 10350 2900 50 
+F5 "OUT2" O R 10350 3625 50 
+$EndSheet
+Wire Wire Line
+	10500 2900 10350 2900
+Text Label 10525 3625 0    50   ~ 0
+ADC8
+Wire Wire Line
+	10525 3625 10350 3625
+$Comp
+L Device:R R?
+U 1 1 612A6E3D
+P 8225 3625
+AR Path="/61024B6A/612A6E3D" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612A6E3D" Ref="R?"  Part="1" 
+AR Path="/612A6E3D" Ref="R?"  Part="1" 
+F 0 "R?" V 8018 3625 50  0000 C CNN
+F 1 "71.5k" V 8109 3625 50  0000 C CNN
+F 2 "" V 8155 3625 50  0001 C CNN
+F 3 "~" H 8225 3625 50  0001 C CNN
+	1    8225 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612A6E43
+P 8625 3825
+AR Path="/61024B6A/612A6E43" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612A6E43" Ref="R?"  Part="1" 
+AR Path="/612A6E43" Ref="R?"  Part="1" 
+F 0 "R?" V 8418 3825 50  0000 C CNN
+F 1 "26.1k" V 8509 3825 50  0000 C CNN
+F 2 "" V 8555 3825 50  0001 C CNN
+F 3 "~" H 8625 3825 50  0001 C CNN
+	1    8625 3825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8625 3625 8625 3675
+Wire Wire Line
+	8375 3625 8625 3625
+$Comp
+L power:GND #PWR?
+U 1 1 612A6E4B
+P 8625 3975
+AR Path="/61024B6A/612A6E4B" Ref="#PWR?"  Part="1" 
+AR Path="/612AE90B/612A6E4B" Ref="#PWR?"  Part="1" 
+AR Path="/612A6E4B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8625 3725 50  0001 C CNN
+F 1 "GND" H 8630 3802 50  0000 C CNN
+F 2 "" H 8625 3975 50  0001 C CNN
+F 3 "" H 8625 3975 50  0001 C CNN
+	1    8625 3975
+	1    0    0    -1  
+$EndComp
+Connection ~ 8625 3625
+Wire Wire Line
+	8625 3625 8950 3625
+Text Label 7800 2900 0    50   ~ 0
+AIN7
+Wire Wire Line
+	8075 2900 7800 2900
+Text Label 7800 3625 0    50   ~ 0
+AIN8
+Wire Wire Line
+	8075 3625 7800 3625
+Text Label 7350 2925 0    50   ~ 0
+ADC5
+$Comp
+L Device:R R?
+U 1 1 612B36F6
+P 5075 2925
+AR Path="/61024B6A/612B36F6" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612B36F6" Ref="R?"  Part="1" 
+AR Path="/612B36F6" Ref="R?"  Part="1" 
+F 0 "R?" V 4868 2925 50  0000 C CNN
+F 1 "35.6k" V 4959 2925 50  0000 C CNN
+F 2 "" V 5005 2925 50  0001 C CNN
+F 3 "~" H 5075 2925 50  0001 C CNN
+	1    5075 2925
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612B36FC
+P 5475 3125
+AR Path="/61024B6A/612B36FC" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612B36FC" Ref="R?"  Part="1" 
+AR Path="/612B36FC" Ref="R?"  Part="1" 
+F 0 "R?" V 5268 3125 50  0000 C CNN
+F 1 "29.4k" V 5359 3125 50  0000 C CNN
+F 2 "" V 5405 3125 50  0001 C CNN
+F 3 "~" H 5475 3125 50  0001 C CNN
+	1    5475 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5475 2925 5475 2975
+Wire Wire Line
+	5225 2925 5475 2925
+$Comp
+L power:GND #PWR?
+U 1 1 612B3704
+P 5475 3275
+AR Path="/61024B6A/612B3704" Ref="#PWR?"  Part="1" 
+AR Path="/612AE90B/612B3704" Ref="#PWR?"  Part="1" 
+AR Path="/612B3704" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5475 3025 50  0001 C CNN
+F 1 "GND" H 5480 3102 50  0000 C CNN
+F 2 "" H 5475 3275 50  0001 C CNN
+F 3 "" H 5475 3275 50  0001 C CNN
+	1    5475 3275
+	1    0    0    -1  
+$EndComp
+Connection ~ 5475 2925
+Wire Wire Line
+	5475 2925 5800 2925
+$Sheet
+S 5800 2725 1400 1075
+U 612B370C
+F0 "sheet612B36EF" 50
+F1 "ADC_Filters.sch" 50
+F2 "IN1" I L 5800 2925 50 
+F3 "IN2" I L 5800 3650 50 
+F4 "OUT1" O R 7200 2925 50 
+F5 "OUT2" O R 7200 3650 50 
+$EndSheet
+Wire Wire Line
+	7350 2925 7200 2925
+Text Label 7375 3650 0    50   ~ 0
+ADC6
+Wire Wire Line
+	7375 3650 7200 3650
+$Comp
+L Device:R R?
+U 1 1 612B3715
+P 5075 3650
+AR Path="/61024B6A/612B3715" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612B3715" Ref="R?"  Part="1" 
+AR Path="/612B3715" Ref="R?"  Part="1" 
+F 0 "R?" V 4868 3650 50  0000 C CNN
+F 1 "35.6k" V 4959 3650 50  0000 C CNN
+F 2 "" V 5005 3650 50  0001 C CNN
+F 3 "~" H 5075 3650 50  0001 C CNN
+	1    5075 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 612B371B
+P 5475 3850
+AR Path="/61024B6A/612B371B" Ref="R?"  Part="1" 
+AR Path="/612AE90B/612B371B" Ref="R?"  Part="1" 
+AR Path="/612B371B" Ref="R?"  Part="1" 
+F 0 "R?" V 5268 3850 50  0000 C CNN
+F 1 "29.4k" V 5359 3850 50  0000 C CNN
+F 2 "" V 5405 3850 50  0001 C CNN
+F 3 "~" H 5475 3850 50  0001 C CNN
+	1    5475 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5475 3650 5475 3700
+Wire Wire Line
+	5225 3650 5475 3650
+$Comp
+L power:GND #PWR?
+U 1 1 612B3723
+P 5475 4000
+AR Path="/61024B6A/612B3723" Ref="#PWR?"  Part="1" 
+AR Path="/612AE90B/612B3723" Ref="#PWR?"  Part="1" 
+AR Path="/612B3723" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5475 3750 50  0001 C CNN
+F 1 "GND" H 5480 3827 50  0000 C CNN
+F 2 "" H 5475 4000 50  0001 C CNN
+F 3 "" H 5475 4000 50  0001 C CNN
+	1    5475 4000
+	1    0    0    -1  
+$EndComp
+Connection ~ 5475 3650
+Wire Wire Line
+	5475 3650 5800 3650
+$Comp
+L power:-12V #PWR?
+U 1 1 612BB93D
+P 4650 3275
+F 0 "#PWR?" H 4650 3375 50  0001 C CNN
+F 1 "-12V" V 4665 3403 50  0000 L CNN
+F 2 "" H 4650 3275 50  0001 C CNN
+F 3 "" H 4650 3275 50  0001 C CNN
+	1    4650 3275
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 612BF18D
+P 3550 3275
+F 0 "#PWR?" H 3550 3125 50  0001 C CNN
+F 1 "+12V" V 3565 3403 50  0000 L CNN
+F 2 "" H 3550 3275 50  0001 C CNN
+F 3 "" H 3550 3275 50  0001 C CNN
+	1    3550 3275
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 2975 4750 2975
+Wire Wire Line
+	4925 2975 4925 2925
+Wire Wire Line
+	4925 3575 4925 3650
+Wire Wire Line
+	4650 3575 4750 3575
+Wire Wire Line
+	4650 3475 4750 3475
+Wire Wire Line
+	4750 3475 4750 3575
+Connection ~ 4750 3575
+Wire Wire Line
+	4750 3575 4925 3575
+Wire Wire Line
+	4650 3075 4750 3075
+Wire Wire Line
+	4750 3075 4750 2975
+Connection ~ 4750 2975
+Wire Wire Line
+	4750 2975 4925 2975
+Text Label 4650 3175 0    50   ~ 0
+AIN5
+Text Label 4650 3375 0    50   ~ 0
+AIN6
 $EndSCHEMATC
