@@ -202,23 +202,23 @@ D12
 Text Label 2550 2000 0    50   ~ 0
 D13
 $Sheet
-S 3950 1075 1400 1075
+S 6100 1200 1400 1075
 U 61024B6A
 F0 "DAC Output Filters" 50
 F1 "DAC_Filters.sch" 50
-F2 "IN1" I L 3950 1275 50 
-F3 "IN2" I L 3950 1825 50 
-F4 "OUT1" O R 5350 1275 50 
-F5 "OUT2" O R 5350 1850 50 
+F2 "IN1" I L 6100 1400 50 
+F3 "IN2" I L 6100 1950 50 
+F4 "OUT1" O R 7500 1400 50 
+F5 "OUT2" O R 7500 1975 50 
 $EndSheet
-Text Label 3650 1275 0    50   ~ 0
+Text Label 5800 1400 0    50   ~ 0
 DAC1
-Text Label 3650 1825 0    50   ~ 0
+Text Label 5800 1950 0    50   ~ 0
 DAC2
 Wire Wire Line
-	3650 1825 3950 1825
+	5800 1950 6100 1950
 Wire Wire Line
-	3650 1275 3950 1275
+	5800 1400 6100 1400
 $Comp
 L SamacSys_Parts:UA7808CKTTR IC?
 U 1 1 610B691F
@@ -404,4 +404,23 @@ $EndComp
 Wire Wire Line
 	5025 6275 4550 6275
 Connection ~ 4550 6275
+$Comp
+L SamacSys_Parts:LF347N IC?
+U 1 1 612701DD
+P 3925 3125
+F 0 "IC?" H 4475 3390 50  0000 C CNN
+F 1 "LF347N" H 4475 3299 50  0000 C CNN
+F 2 "DIP794W56P254L1905H533Q14N" H 4875 3225 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf347-n.pdf" H 4875 3125 50  0001 L CNN
+F 4 "Quad General-Purpose JFET-input Operational Amplifier" H 4875 3025 50  0001 L CNN "Description"
+F 5 "5.334" H 4875 2925 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 4875 2825 50  0001 L CNN "Manufacturer_Name"
+F 7 "LF347N" H 4875 2725 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-LF347N" H 4875 2625 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF347N?qs=DcvZ7Fltd5zOlQRQ%252BiS7vA%3D%3D" H 4875 2525 50  0001 L CNN "Mouser Price/Stock"
+F 10 "LF347N" H 4875 2425 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/lf347n/texas-instruments" H 4875 2325 50  0001 L CNN "Arrow Price/Stock"
+	1    3925 3125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
