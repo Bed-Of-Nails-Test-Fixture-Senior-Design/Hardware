@@ -1,0 +1,21 @@
+* C:\Users\walto\Desktop\School\2021-Fall\COMPE-496B\senior_design\LTSpice\Filters\12V5_lowinput\12Vlowinput.asc
+V1 +12V 0 12V
+R1 N007 N008 75k
+C1 N008 0 680p
+XU2 N005 N002 +12V -12V N002 LF347
+XU3 N006 N004 +12V -12V N004 LF347
+R2 N001 N008 31.6k
+R3 N005 N001 22.1k
+R4 N003 N002 10.7k
+R5 N006 N003 34.8k
+C2 N002 N001 680p
+C3 N004 N003 2.2n
+C4 0 N005 220p
+C5 0 N006 150p
+R8 N008 0 25.5k
+V4 0 -12V 12V
+V5 N007 0 SINE(6 6 100) AC 1V
+.ac dec 100 0.1 50k
+.lib C:\Users\walto\Desktop\School\2021-Fall\COMPE-496B\senior_design\LTSpice\LF347.301
+.backanno
+.end
