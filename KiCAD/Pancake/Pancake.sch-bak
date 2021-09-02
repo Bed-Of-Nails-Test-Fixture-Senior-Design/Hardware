@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -64,16 +64,6 @@ $EndComp
 Connection ~ 3975 6375
 Wire Wire Line
 	3975 6375 4300 6375
-$Sheet
-S 4300 6175 1400 1075
-U 6133D86D
-F0 "DAC01" 50
-F1 "Filters.sch" 50
-F2 "IN1" I L 4300 6375 50 
-F3 "IN2" I L 4300 7100 50 
-F4 "OUT1" O R 5700 6375 50 
-F5 "OUT2" O R 5700 7100 50 
-$EndSheet
 Wire Wire Line
 	5850 6375 5700 6375
 Text Label 6600 7100 0    50   ~ 0
@@ -1435,4 +1425,20 @@ Wire Wire Line
 Connection ~ 6425 7100
 Wire Wire Line
 	6425 7100 6175 7100
+$Sheet
+S 1175 6050 1175 1050
+U 612F5BDF
+F0 "Sheet612F5BDE" 50
+F1 "Relays.sch" 50
+$EndSheet
+$Sheet
+S 4300 6175 1400 1075
+U 6133D86D
+F0 "DAC01" 50
+F1 "Filters.sch" 50
+F2 "IN1" I L 4300 6375 50 
+F3 "IN2" I L 4300 7100 50 
+F4 "OUT1" O R 5700 6375 50 
+F5 "OUT2" O R 5700 7100 50 
+$EndSheet
 $EndSCHEMATC
