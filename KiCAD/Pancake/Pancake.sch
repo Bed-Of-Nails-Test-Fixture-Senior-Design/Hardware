@@ -991,7 +991,7 @@ AR Path="/612AE90B/613E45C7" Ref="C?"  Part="1"
 AR Path="/613E45C7" Ref="C5"  Part="1" 
 F 0 "C5" V 5898 6350 50  0000 C CNN
 F 1 "220nF" V 5989 6350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6188 6200 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6188 6200 50  0001 C CNN
 F 3 "~" H 6150 6350 50  0001 C CNN
 	1    6150 6350
 	0    -1   -1   0   
@@ -1005,7 +1005,7 @@ AR Path="/612AE90B/613F5D0D" Ref="C?"  Part="1"
 AR Path="/613F5D0D" Ref="C6"  Part="1" 
 F 0 "C6" V 5923 7075 50  0000 C CNN
 F 1 "220nF" V 6014 7075 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 6213 6925 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 6213 6925 50  0001 C CNN
 F 3 "~" H 6175 7075 50  0001 C CNN
 	1    6175 7075
 	0    -1   -1   0   
@@ -1187,7 +1187,7 @@ PresenceIn
 Text Label 3775 1975 0    50   ~ 0
 PresenceOut
 $Comp
-L SamacSys_Parts:PWR220T-35-8R00F R101
+L Pancake-rescue:PWR220T-35-8R00F-SamacSys_Parts R101
 U 1 1 614C8890
 P 4525 5425
 F 0 "R101" H 4875 5650 50  0000 C CNN
@@ -1299,7 +1299,7 @@ F 3 "" H 1300 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SamacSys_Parts:TB001-500-04BE J101
+L Pancake-rescue:TB001-500-04BE-SamacSys_Parts J101
 U 1 1 6131A74D
 P 1300 4550
 F 0 "J101" H 1592 3985 50  0000 C CNN
@@ -1334,7 +1334,7 @@ Wire Wire Line
 	4525 5575 4525 5425
 Connection ~ 4525 5425
 $Comp
-L SamacSys_Parts:TB001-500-03BE J102
+L Pancake-rescue:TB001-500-03BE-SamacSys_Parts J102
 U 1 1 6151F148
 P 2600 4525
 F 0 "J102" H 2892 4060 50  0000 C CNN

@@ -628,7 +628,7 @@ F 3 "" H 1250 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SamacSys_Parts:ULN2003AIN Q901
+L Pancake-rescue:ULN2003AIN-SamacSys_Parts Q901
 U 1 1 614225A7
 P 1250 2000
 F 0 "Q901" H 1750 2265 50  0000 C CNN
@@ -681,7 +681,7 @@ F 3 "" H 6200 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L SamacSys_Parts:ULN2003AIN Q902
+L Pancake-rescue:ULN2003AIN-SamacSys_Parts Q902
 U 1 1 6149A825
 P 6200 1950
 F 0 "Q902" H 6700 2215 50  0000 C CNN

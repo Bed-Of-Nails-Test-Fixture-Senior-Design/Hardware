@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -94,7 +94,7 @@ AR Path="/61305DC1/6102D50F" Ref="C18"  Part="1"
 AR Path="/6133D86D/6102D50F" Ref="C8"  Part="1" 
 F 0 "C8" V 3798 2525 50  0000 C CNN
 F 1 "680pF" V 3889 2525 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4088 2375 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4088 2375 50  0001 C CNN
 F 3 "~" H 4050 2525 50  0001 C CNN
 	1    4050 2525
 	0    1    1    0   
@@ -113,7 +113,7 @@ AR Path="/61305DC1/6102E9B3" Ref="C20"  Part="1"
 AR Path="/6133D86D/6102E9B3" Ref="C10"  Part="1" 
 F 0 "C10" H 4110 3229 50  0000 R CNN
 F 1 "180pF" H 4110 3320 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4263 3125 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4263 3125 50  0001 C CNN
 F 3 "~" H 4225 3275 50  0001 C CNN
 	1    4225 3275
 	-1   0    0    1   
@@ -132,7 +132,7 @@ AR Path="/61305DC1/6102F743" Ref="C17"  Part="1"
 AR Path="/6133D86D/6102F743" Ref="C7"  Part="1" 
 F 0 "C7" H 2535 3229 50  0000 R CNN
 F 1 "680pF" H 2535 3320 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 2688 3125 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 2688 3125 50  0001 C CNN
 F 3 "~" H 2650 3275 50  0001 C CNN
 	1    2650 3275
 	-1   0    0    1   
@@ -246,7 +246,7 @@ AR Path="/61305DC1/6103B133" Ref="C19"  Part="1"
 AR Path="/6133D86D/6103B133" Ref="C9"  Part="1" 
 F 0 "C9" V 3798 5000 50  0000 C CNN
 F 1 "3.3nF" V 3889 5000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4088 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4088 4850 50  0001 C CNN
 F 3 "~" H 4050 5000 50  0001 C CNN
 	1    4050 5000
 	0    1    1    0   
@@ -265,7 +265,7 @@ AR Path="/61305DC1/6103B139" Ref="C21"  Part="1"
 AR Path="/6133D86D/6103B139" Ref="C11"  Part="1" 
 F 0 "C11" H 4110 4079 50  0000 R CNN
 F 1 "180pF" H 4110 4170 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 4263 3975 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4263 3975 50  0001 C CNN
 F 3 "~" H 4225 4125 50  0001 C CNN
 	1    4225 4125
 	-1   0    0    1   
@@ -413,7 +413,7 @@ AR Path="/61305DC1/610910B0" Ref="C24"  Part="1"
 AR Path="/6133D86D/610910B0" Ref="C14"  Part="1" 
 F 0 "C14" V 7448 2525 50  0000 C CNN
 F 1 "680pF" V 7539 2525 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7738 2375 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7738 2375 50  0001 C CNN
 F 3 "~" H 7700 2525 50  0001 C CNN
 	1    7700 2525
 	0    -1   1    0   
@@ -432,7 +432,7 @@ AR Path="/61305DC1/610910BC" Ref="C26"  Part="1"
 AR Path="/6133D86D/610910BC" Ref="C16"  Part="1" 
 F 0 "C16" H 9010 3229 50  0000 R CNN
 F 1 "680pF" H 9010 3320 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 9163 3125 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 9163 3125 50  0001 C CNN
 F 3 "~" H 9125 3275 50  0001 C CNN
 	1    9125 3275
 	1    0    0    1   
@@ -527,7 +527,7 @@ AR Path="/61305DC1/610910F1" Ref="C25"  Part="1"
 AR Path="/6133D86D/610910F1" Ref="C15"  Part="1" 
 F 0 "C15" V 7448 5000 50  0000 C CNN
 F 1 "3.3nF" V 7539 5000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7738 4850 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7738 4850 50  0001 C CNN
 F 3 "~" H 7700 5000 50  0001 C CNN
 	1    7700 5000
 	0    -1   1    0   
@@ -546,7 +546,7 @@ AR Path="/61305DC1/610910F7" Ref="C23"  Part="1"
 AR Path="/6133D86D/610910F7" Ref="C13"  Part="1" 
 F 0 "C13" H 7435 4079 50  0000 R CNN
 F 1 "180pF" H 7435 4170 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7588 3975 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7588 3975 50  0001 C CNN
 F 3 "~" H 7550 4125 50  0001 C CNN
 	1    7550 4125
 	1    0    0    1   
@@ -711,7 +711,7 @@ AR Path="/61305DC1/610910B6" Ref="C22"  Part="1"
 AR Path="/6133D86D/610910B6" Ref="C12"  Part="1" 
 F 0 "C12" H 7435 3229 50  0000 R CNN
 F 1 "180nF" H 7435 3320 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" H 7588 3125 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 7588 3125 50  0001 C CNN
 F 3 "~" H 7550 3275 50  0001 C CNN
 	1    7550 3275
 	1    0    0    1   
