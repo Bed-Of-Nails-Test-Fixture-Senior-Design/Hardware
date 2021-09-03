@@ -1,0 +1,702 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayA901
+U 1 1 611318CE
+P 9750 1350
+F 0 "RelayA901" H 10500 1300 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 10475 1076 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 11050 1450 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 10100 1750 50  0001 L CNN
+	1    9750 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0120
+U 1 1 61132D9D
+P 10200 1250
+F 0 "#PWR0120" H 10200 1100 50  0001 C CNN
+F 1 "+12V" H 10215 1423 50  0000 C CNN
+F 2 "" H 10200 1250 50  0001 C CNN
+F 3 "" H 10200 1250 50  0001 C CNN
+	1    10200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayD901
+U 1 1 6113726F
+P 9750 3900
+F 0 "RelayD901" H 10400 3900 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 10475 3626 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 11050 4000 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 10100 4300 50  0001 L CNN
+	1    9750 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R905
+U 1 1 6113BA53
+P 8250 2850
+F 0 "R905" H 8318 2896 50  0000 L CNN
+F 1 "50K" H 8318 2805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8290 2840 50  0001 C CNN
+F 3 "~" H 8250 2850 50  0001 C CNN
+	1    8250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R906
+U 1 1 6113C2BF
+P 8250 3500
+F 0 "R906" H 8318 3546 50  0000 L CNN
+F 1 "50K" H 8318 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8290 3490 50  0001 C CNN
+F 3 "~" H 8250 3500 50  0001 C CNN
+	1    8250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 2600 8250 2600
+Wire Wire Line
+	8250 2600 8250 2700
+Wire Wire Line
+	8250 3000 8250 3250
+Wire Wire Line
+	8250 3250 8450 3250
+Wire Wire Line
+	8250 3250 8250 3350
+Connection ~ 8250 3250
+Wire Wire Line
+	8250 3650 8250 3900
+Wire Wire Line
+	8250 3900 8450 3900
+Wire Wire Line
+	8250 2600 8100 2600
+Connection ~ 8250 2600
+Wire Wire Line
+	8250 3900 8050 3900
+Connection ~ 8250 3900
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayB901
+U 1 1 61134133
+P 9750 2600
+F 0 "RelayB901" H 10425 2600 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 10475 2326 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 11050 2700 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 10100 3000 50  0001 L CNN
+	1    9750 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayC901
+U 1 1 611346EE
+P 9750 3250
+F 0 "RelayC901" H 10425 3275 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 10475 2976 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 11050 3350 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 10100 3650 50  0001 L CNN
+	1    9750 3250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 1350 9750 1550
+Wire Wire Line
+	9750 1550 9900 1550
+Wire Wire Line
+	9750 3250 9750 3450
+Wire Wire Line
+	9750 2500 10050 2500
+Wire Wire Line
+	10050 3800 9750 3800
+Wire Wire Line
+	8450 1350 8450 1700
+Wire Wire Line
+	8450 1700 8600 1700
+Wire Wire Line
+	9750 1250 10200 1250
+Wire Wire Line
+	9750 2600 10200 2600
+Wire Wire Line
+	10200 2600 10200 3450
+Wire Wire Line
+	9750 3450 10200 3450
+Connection ~ 10200 3450
+Wire Wire Line
+	10200 3450 10300 3450
+$Comp
+L power:+12V #PWR0121
+U 1 1 61302888
+P 10050 3700
+F 0 "#PWR0121" H 10050 3550 50  0001 C CNN
+F 1 "+12V" H 10065 3873 50  0000 C CNN
+F 2 "" H 10050 3700 50  0001 C CNN
+F 3 "" H 10050 3700 50  0001 C CNN
+	1    10050 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 3800 10050 3700
+$Comp
+L power:+12V #PWR0122
+U 1 1 613077DE
+P 10050 3050
+F 0 "#PWR0122" H 10050 2900 50  0001 C CNN
+F 1 "+12V" H 10065 3223 50  0000 C CNN
+F 2 "" H 10050 3050 50  0001 C CNN
+F 3 "" H 10050 3050 50  0001 C CNN
+	1    10050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3150 10050 3150
+Wire Wire Line
+	10050 3150 10050 3050
+$Comp
+L power:+12V #PWR0186
+U 1 1 6130C93E
+P 10050 2400
+F 0 "#PWR0186" H 10050 2250 50  0001 C CNN
+F 1 "+12V" H 10065 2573 50  0000 C CNN
+F 2 "" H 10050 2400 50  0001 C CNN
+F 3 "" H 10050 2400 50  0001 C CNN
+	1    10050 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 2400 10050 2500
+Wire Wire Line
+	4950 3900 5100 3900
+Connection ~ 4950 3900
+Wire Wire Line
+	4650 4450 4950 4450
+Wire Wire Line
+	4950 4450 4950 3900
+Wire Wire Line
+	4650 3450 4950 3450
+Wire Wire Line
+	4650 3900 4950 3900
+Wire Wire Line
+	4950 3450 4950 3900
+Wire Wire Line
+	4850 4250 4850 4150
+Wire Wire Line
+	4850 3200 4850 3100
+Wire Wire Line
+	4850 3700 4850 3600
+Wire Wire Line
+	4950 2000 4950 2100
+Wire Wire Line
+	4950 1600 4950 1550
+Wire Wire Line
+	4700 1600 4950 1600
+Wire Wire Line
+	5050 1850 5200 1850
+Connection ~ 5050 1850
+Wire Wire Line
+	4700 1850 5050 1850
+Wire Wire Line
+	4700 1350 5050 1350
+Wire Wire Line
+	5050 1350 5050 1850
+Wire Wire Line
+	9750 4100 10200 4100
+Wire Wire Line
+	10200 4100 10200 3450
+Wire Wire Line
+	4650 3300 4650 3450
+Wire Wire Line
+	4650 3800 4650 3900
+Wire Wire Line
+	4650 4350 4650 4450
+$Comp
+L power:+12V #PWR0187
+U 1 1 61247323
+P 4850 4150
+F 0 "#PWR0187" H 4850 4000 50  0001 C CNN
+F 1 "+12V" H 4700 4200 50  0000 C CNN
+F 2 "" H 4850 4150 50  0001 C CNN
+F 3 "" H 4850 4150 50  0001 C CNN
+	1    4850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0188
+U 1 1 61247012
+P 4850 3600
+F 0 "#PWR0188" H 4850 3450 50  0001 C CNN
+F 1 "+12V" H 4700 3600 50  0000 C CNN
+F 2 "" H 4850 3600 50  0001 C CNN
+F 3 "" H 4850 3600 50  0001 C CNN
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0189
+U 1 1 61246C2A
+P 4850 3100
+F 0 "#PWR0189" H 4850 2950 50  0001 C CNN
+F 1 "+12V" H 4865 3273 50  0000 C CNN
+F 2 "" H 4850 3100 50  0001 C CNN
+F 3 "" H 4850 3100 50  0001 C CNN
+	1    4850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 3900 9750 4100
+Wire Wire Line
+	4700 1700 4700 1850
+Wire Wire Line
+	4700 1150 4700 1350
+$Comp
+L power:+12V #PWR0190
+U 1 1 6120FDBD
+P 4950 2000
+F 0 "#PWR0190" H 4950 1850 50  0001 C CNN
+F 1 "+12V" H 4800 2050 50  0000 C CNN
+F 2 "" H 4950 2000 50  0001 C CNN
+F 3 "" H 4950 2000 50  0001 C CNN
+	1    4950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0191
+U 1 1 6120FA9C
+P 4950 1550
+F 0 "#PWR0191" H 4950 1400 50  0001 C CNN
+F 1 "+12V" H 4800 1650 50  0000 C CNN
+F 2 "" H 4950 1550 50  0001 C CNN
+F 3 "" H 4950 1550 50  0001 C CNN
+	1    4950 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0192
+U 1 1 6120F5BD
+P 4950 1050
+F 0 "#PWR0192" H 4950 900 50  0001 C CNN
+F 1 "+12V" H 4965 1223 50  0000 C CNN
+F 2 "" H 4950 1050 50  0001 C CNN
+F 3 "" H 4950 1050 50  0001 C CNN
+	1    4950 1050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3150 1150
+Wire Wire Line
+	3150 1150 3000 1150
+Connection ~ 3150 2200
+Wire Wire Line
+	3150 2300 3150 2200
+Wire Wire Line
+	3050 2300 3150 2300
+Wire Wire Line
+	4700 2100 4950 2100
+Wire Wire Line
+	4700 1050 4950 1050
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayG901
+U 1 1 61140C6C
+P 4700 2200
+F 0 "RelayG901" H 5450 2150 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 5425 1926 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 6000 2300 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 5050 2600 50  0001 L CNN
+	1    4700 2200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 4250 4650 4250
+Wire Wire Line
+	4850 3700 4650 3700
+Wire Wire Line
+	4650 3200 4850 3200
+Connection ~ 3150 4350
+Wire Wire Line
+	3150 4350 2850 4350
+Connection ~ 3150 3300
+Wire Wire Line
+	3150 3300 2850 3300
+Wire Wire Line
+	4550 4150 4550 4100
+Wire Wire Line
+	3150 2200 3400 2200
+Wire Wire Line
+	3150 2050 3150 2200
+Wire Wire Line
+	3150 1700 3150 1750
+Connection ~ 3150 1700
+Wire Wire Line
+	3400 1700 3150 1700
+Wire Wire Line
+	3150 1550 3150 1700
+Wire Wire Line
+	3150 1150 3400 1150
+Wire Wire Line
+	3150 1250 3150 1150
+Wire Wire Line
+	3150 4350 3350 4350
+Wire Wire Line
+	3150 4200 3150 4350
+Connection ~ 3150 3800
+Wire Wire Line
+	3150 3800 3150 3900
+Wire Wire Line
+	3150 3800 3350 3800
+Wire Wire Line
+	3150 3650 3150 3800
+Wire Wire Line
+	3150 3300 3350 3300
+Wire Wire Line
+	3150 3300 3150 3350
+$Comp
+L Device:R_US R904
+U 1 1 6115702D
+P 3150 4050
+F 0 "R904" H 3218 4096 50  0000 L CNN
+F 1 "50K" H 3218 4005 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 4040 50  0001 C CNN
+F 3 "~" H 3150 4050 50  0001 C CNN
+	1    3150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R903
+U 1 1 61156996
+P 3150 3500
+F 0 "R903" H 3218 3546 50  0000 L CNN
+F 1 "50K" H 3218 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 3490 50  0001 C CNN
+F 3 "~" H 3150 3500 50  0001 C CNN
+	1    3150 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R902
+U 1 1 611564C5
+P 3150 1900
+F 0 "R902" H 3218 1946 50  0000 L CNN
+F 1 "50K" H 3218 1855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 1890 50  0001 C CNN
+F 3 "~" H 3150 1900 50  0001 C CNN
+	1    3150 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R901
+U 1 1 61155E18
+P 3150 1400
+F 0 "R901" H 3218 1446 50  0000 L CNN
+F 1 "50K" H 3218 1355 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3190 1390 50  0001 C CNN
+F 3 "~" H 3150 1400 50  0001 C CNN
+	1    3150 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 3100 3000 4250
+Wire Wire Line
+	3050 3000 3050 3700
+Wire Wire Line
+	2750 3000 3050 3000
+Wire Wire Line
+	3100 2900 3100 3200
+Wire Wire Line
+	2850 2200 2850 2100
+Wire Wire Line
+	2750 2100 2750 1600
+Wire Wire Line
+	2700 2000 2700 1050
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayF901
+U 1 1 6114D1F4
+P 4700 1700
+F 0 "RelayF901" H 5450 1650 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 5425 1426 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 6000 1800 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 5050 2100 50  0001 L CNN
+	1    4700 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayE901
+U 1 1 6114CD83
+P 4700 1150
+F 0 "RelayE901" H 5450 1100 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 5425 876 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 6000 1250 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 5050 1550 50  0001 L CNN
+	1    4700 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayJ901
+U 1 1 61141FDC
+P 4650 4350
+F 0 "RelayJ901" H 5400 4300 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 5375 4076 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 5950 4450 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 5000 4750 50  0001 L CNN
+	1    4650 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayI901
+U 1 1 611415A3
+P 4650 3800
+F 0 "RelayI901" H 5400 3700 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 5375 3526 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 5950 3900 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 5000 4200 50  0001 L CNN
+	1    4650 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L SamacSys_Parts:833H-1A-F-S-12VDC RelayH901
+U 1 1 6114110F
+P 4650 3300
+F 0 "RelayH901" H 5400 3250 50  0000 C CNN
+F 1 "833H-1A-F-S-12VDC" H 5375 3026 50  0000 C CNN
+F 2 "833H1AFS12VDC" H 5950 3400 50  0001 L CNN
+F 3 "https://eu.mouser.com/datasheet/2/378/20119191320287145-4912.pdf" H 5000 3700 50  0001 L CNN
+	1    4650 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0194
+U 1 1 611252C0
+P 2250 2700
+F 0 "#PWR0194" H 2250 2550 50  0001 C CNN
+F 1 "+12V" V 2325 2750 50  0000 C CNN
+F 2 "" H 2250 2700 50  0001 C CNN
+F 3 "" H 2250 2700 50  0001 C CNN
+	1    2250 2700
+	0    1    1    0   
+$EndComp
+Text HLabel 6200 1950 0    50   Input ~ 0
+in1
+Text HLabel 6200 2050 0    50   Input ~ 0
+in2
+Text HLabel 6200 2150 0    50   Input ~ 0
+in3
+Text HLabel 6200 2250 0    50   Input ~ 0
+in4
+Text HLabel 1250 2000 0    50   Input ~ 0
+in5
+Text HLabel 1250 2100 0    50   Input ~ 0
+in6
+Text HLabel 1250 2200 0    50   Input ~ 0
+in7
+Text HLabel 1250 2300 0    50   Input ~ 0
+in8
+Text HLabel 1250 2400 0    50   Input ~ 0
+in9
+Text HLabel 1250 2500 0    50   Input ~ 0
+in10
+Text HLabel 8600 1700 2    50   Output ~ 0
+out1
+Text HLabel 9900 1550 2    50   Output ~ 0
+out2
+Text HLabel 8100 2600 0    50   Output ~ 0
+out3
+Text HLabel 10300 3450 2    50   Output ~ 0
+out4
+Text HLabel 8050 3900 0    50   Output ~ 0
+out5
+Wire Wire Line
+	2800 2900 3100 2900
+Wire Wire Line
+	2800 2300 2800 2900
+Wire Wire Line
+	2750 2400 2750 3000
+Wire Wire Line
+	2700 2500 2700 3100
+Wire Wire Line
+	2700 3100 3000 3100
+Text HLabel 2850 3300 0    50   Output ~ 0
+out9
+Text HLabel 5100 3900 2    50   Output ~ 0
+out10
+Text HLabel 2850 4350 0    50   Output ~ 0
+out11
+Text HLabel 3000 1150 0    50   Output ~ 0
+out6
+Text HLabel 5200 1850 2    50   Output ~ 0
+out7
+Text HLabel 3050 2300 0    50   Output ~ 0
+out8
+Wire Notes Line
+	10600 1800 7950 1800
+Wire Notes Line
+	7950 1800 7950 750 
+Wire Notes Line
+	7950 750  10600 750 
+Wire Notes Line
+	10600 750  10600 1800
+Text Notes 9450 900  0    50   ~ 0
+P(OUT/IN)
+Wire Wire Line
+	7200 1950 7850 1950
+Wire Wire Line
+	7850 1950 7850 1250
+Wire Wire Line
+	8000 2050 7200 2050
+Wire Wire Line
+	8000 2050 8000 2500
+Wire Wire Line
+	7850 3150 7850 2150
+Wire Wire Line
+	7850 2150 7200 2150
+Wire Wire Line
+	7500 2250 7200 2250
+Wire Wire Line
+	7500 2250 7500 3800
+Wire Notes Line
+	10600 4300 7650 4300
+Wire Notes Line
+	7650 4300 7650 2100
+Wire Notes Line
+	7650 2100 10600 2100
+Wire Notes Line
+	10600 2100 10600 4300
+Text Notes 9250 2200 0    50   ~ 0
+VOL(CW/MID/CCW)
+Wire Notes Line
+	2650 700  2650 2350
+Wire Notes Line
+	2650 2350 5600 2350
+Wire Notes Line
+	5600 2350 5600 700 
+Wire Notes Line
+	5600 700  2650 700 
+Text Notes 4600 800  0    50   ~ 0
+TONE(CW/MID/CCW)
+Wire Notes Line
+	5600 2700 5600 4600
+Wire Notes Line
+	5600 4600 2500 4600
+Wire Notes Line
+	2500 4600 2500 2700
+Wire Notes Line
+	2500 2700 5600 2700
+Text Notes 4650 2850 0    50   ~ 0
+DRIVE(CW/MID/CCW)
+Wire Wire Line
+	5050 1850 5050 2200
+Wire Wire Line
+	5050 2200 4700 2200
+Wire Wire Line
+	2700 1050 3400 1050
+Wire Wire Line
+	2750 1600 3400 1600
+Wire Wire Line
+	2850 2100 3400 2100
+Wire Wire Line
+	3100 3200 3350 3200
+Wire Wire Line
+	3050 3700 3350 3700
+Wire Wire Line
+	3000 4250 3350 4250
+Wire Wire Line
+	7850 1250 8450 1250
+Wire Wire Line
+	8000 2500 8450 2500
+Wire Wire Line
+	7850 3150 8450 3150
+Wire Wire Line
+	7500 3800 8450 3800
+$Comp
+L power:GND #PWR0193
+U 1 1 61130C1A
+P 1250 2700
+F 0 "#PWR0193" H 1250 2450 50  0001 C CNN
+F 1 "GND" V 1350 2625 50  0000 C CNN
+F 2 "" H 1250 2700 50  0001 C CNN
+F 3 "" H 1250 2700 50  0001 C CNN
+	1    1250 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ULN2003AIN Q901
+U 1 1 614225A7
+P 1250 2000
+F 0 "Q901" H 1750 2265 50  0000 C CNN
+F 1 "ULN2003AIN" H 1750 2174 50  0000 C CNN
+F 2 "DIP794W53P254L1930H508Q16N" H 2100 2100 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7320887" H 2100 2000 50  0001 L CNN
+F 4 "Texas Instruments ULN2003AINE4, 7-element NPN Darlington Pair, 500 mA 50 V, 16-Pin PDIP" H 2100 1900 50  0001 L CNN "Description"
+F 5 "5.08" H 2100 1800 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 2100 1700 50  0001 L CNN "Manufacturer_Name"
+F 7 "ULN2003AIN" H 2100 1600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-ULN2003AIN" H 2100 1500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ULN2003AIN?qs=pbofycSusePdlj3Avt3WRA%3D%3D" H 2100 1400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ULN2003AIN" H 2100 1300 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/uln2003ain/texas-instruments?region=nac" H 2100 1200 50  0001 L CNN "Arrow Price/Stock"
+	1    1250 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2000 2700 2000
+Wire Wire Line
+	2250 2100 2750 2100
+Wire Wire Line
+	2250 2200 2850 2200
+Wire Wire Line
+	2250 2300 2800 2300
+Wire Wire Line
+	2250 2400 2750 2400
+Wire Wire Line
+	2250 2500 2700 2500
+$Comp
+L power:+12V #PWR0118
+U 1 1 6149A811
+P 7200 2650
+F 0 "#PWR0118" H 7200 2500 50  0001 C CNN
+F 1 "+12V" V 7275 2700 50  0000 C CNN
+F 2 "" H 7200 2650 50  0001 C CNN
+F 3 "" H 7200 2650 50  0001 C CNN
+	1    7200 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 6149A817
+P 6200 2650
+F 0 "#PWR0119" H 6200 2400 50  0001 C CNN
+F 1 "GND" V 6300 2575 50  0000 C CNN
+F 2 "" H 6200 2650 50  0001 C CNN
+F 3 "" H 6200 2650 50  0001 C CNN
+	1    6200 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L SamacSys_Parts:ULN2003AIN Q902
+U 1 1 6149A825
+P 6200 1950
+F 0 "Q902" H 6700 2215 50  0000 C CNN
+F 1 "ULN2003AIN" H 6700 2124 50  0000 C CNN
+F 2 "DIP794W53P254L1930H508Q16N" H 7050 2050 50  0001 L CNN
+F 3 "http://uk.rs-online.com/web/p/products/7320887" H 7050 1950 50  0001 L CNN
+F 4 "Texas Instruments ULN2003AINE4, 7-element NPN Darlington Pair, 500 mA 50 V, 16-Pin PDIP" H 7050 1850 50  0001 L CNN "Description"
+F 5 "5.08" H 7050 1750 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 7050 1650 50  0001 L CNN "Manufacturer_Name"
+F 7 "ULN2003AIN" H 7050 1550 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-ULN2003AIN" H 7050 1450 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/ULN2003AIN?qs=pbofycSusePdlj3Avt3WRA%3D%3D" H 7050 1350 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ULN2003AIN" H 7050 1250 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/uln2003ain/texas-instruments?region=nac" H 7050 1150 50  0001 L CNN "Arrow Price/Stock"
+	1    6200 1950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -109,127 +109,127 @@ Text Label 6500 6350 0    50   ~ 0
 GuitarIn
 Text Label 6500 7075 0    50   ~ 0
 AuxIn
-Text Label 8400 4550 2    50   ~ 0
+Text Label 4175 4625 2    50   ~ 0
 SPRKPos
 Text Label 8400 3625 2    50   ~ 0
 8VOut
-Text Label 8400 5275 2    50   ~ 0
+Text Label 4175 5575 2    50   ~ 0
 SPRKNeg
 Wire Wire Line
-	8950 5275 9275 5275
-Connection ~ 8950 5275
+	5450 5425 5775 5425
+Connection ~ 5450 5425
 $Comp
 L power:GND #PWR?
 U 1 1 61305DD8
-P 8950 5625
+P 5450 5775
 AR Path="/61024B6A/61305DD8" Ref="#PWR?"  Part="1" 
 AR Path="/612AE90B/61305DD8" Ref="#PWR?"  Part="1" 
 AR Path="/61305DD8" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 8950 5375 50  0001 C CNN
-F 1 "GND" H 8955 5452 50  0000 C CNN
-F 2 "" H 8950 5625 50  0001 C CNN
-F 3 "" H 8950 5625 50  0001 C CNN
-	1    8950 5625
+F 0 "#PWR0103" H 5450 5525 50  0001 C CNN
+F 1 "GND" H 5455 5602 50  0000 C CNN
+F 2 "" H 5450 5775 50  0001 C CNN
+F 3 "" H 5450 5775 50  0001 C CNN
+	1    5450 5775
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 5275 8950 5275
+	5200 5425 5450 5425
 Wire Wire Line
-	8950 5275 8950 5325
+	5450 5425 5450 5475
 $Comp
 L Device:R R?
 U 1 1 61305DD0
-P 8950 5475
+P 5450 5625
 AR Path="/61024B6A/61305DD0" Ref="R?"  Part="1" 
 AR Path="/612AE90B/61305DD0" Ref="R?"  Part="1" 
 AR Path="/61305DD0" Ref="R28"  Part="1" 
-F 0 "R28" V 8743 5475 50  0000 C CNN
-F 1 "33k" V 8834 5475 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8880 5475 50  0001 C CNN
-F 3 "~" H 8950 5475 50  0001 C CNN
-	1    8950 5475
+F 0 "R28" V 5243 5625 50  0000 C CNN
+F 1 "33k" V 5334 5625 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 5625 50  0001 C CNN
+F 3 "~" H 5450 5625 50  0001 C CNN
+	1    5450 5625
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61305DCA
-P 8550 5275
+P 5050 5425
 AR Path="/61024B6A/61305DCA" Ref="R?"  Part="1" 
 AR Path="/612AE90B/61305DCA" Ref="R?"  Part="1" 
 AR Path="/61305DCA" Ref="R22"  Part="1" 
-F 0 "R22" V 8343 5275 50  0000 C CNN
-F 1 "91k" V 8434 5275 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8480 5275 50  0001 C CNN
-F 3 "~" H 8550 5275 50  0001 C CNN
-	1    8550 5275
+F 0 "R22" V 4843 5425 50  0000 C CNN
+F 1 "91k" V 4934 5425 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4980 5425 50  0001 C CNN
+F 3 "~" H 5050 5425 50  0001 C CNN
+	1    5050 5425
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	10850 5275 10675 5275
-Text Label 10850 5275 0    50   ~ 0
+	7350 5425 7175 5425
+Text Label 7350 5425 0    50   ~ 0
 ADC11
 Wire Wire Line
-	10825 4550 10675 4550
+	7325 4700 7175 4700
 $Sheet
-S 9275 4350 1400 1075
+S 5775 4500 1400 1075
 U 61305DC1
 F0 "ADC1011" 50
 F1 "Filters.sch" 50
-F2 "IN1" I L 9275 4550 50 
-F3 "IN2" I L 9275 5275 50 
-F4 "OUT1" O R 10675 4550 50 
-F5 "OUT2" O R 10675 5275 50 
+F2 "IN1" I L 5775 4700 50 
+F3 "IN2" I L 5775 5425 50 
+F4 "OUT1" O R 7175 4700 50 
+F5 "OUT2" O R 7175 5425 50 
 $EndSheet
 Wire Wire Line
-	8950 4550 9275 4550
-Connection ~ 8950 4550
+	5450 4700 5775 4700
+Connection ~ 5450 4700
 $Comp
 L power:GND #PWR?
 U 1 1 61305DB9
-P 8950 4900
+P 5450 5050
 AR Path="/61024B6A/61305DB9" Ref="#PWR?"  Part="1" 
 AR Path="/612AE90B/61305DB9" Ref="#PWR?"  Part="1" 
 AR Path="/61305DB9" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 8950 4650 50  0001 C CNN
-F 1 "GND" H 8955 4727 50  0000 C CNN
-F 2 "" H 8950 4900 50  0001 C CNN
-F 3 "" H 8950 4900 50  0001 C CNN
-	1    8950 4900
+F 0 "#PWR0104" H 5450 4800 50  0001 C CNN
+F 1 "GND" H 5455 4877 50  0000 C CNN
+F 2 "" H 5450 5050 50  0001 C CNN
+F 3 "" H 5450 5050 50  0001 C CNN
+	1    5450 5050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 4550 8950 4550
+	5200 4700 5450 4700
 Wire Wire Line
-	8950 4550 8950 4600
+	5450 4700 5450 4750
 $Comp
 L Device:R R?
 U 1 1 61305DB1
-P 8950 4750
+P 5450 4900
 AR Path="/61024B6A/61305DB1" Ref="R?"  Part="1" 
 AR Path="/612AE90B/61305DB1" Ref="R?"  Part="1" 
 AR Path="/61305DB1" Ref="R27"  Part="1" 
-F 0 "R27" V 8743 4750 50  0000 C CNN
-F 1 "33k" V 8834 4750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8880 4750 50  0001 C CNN
-F 3 "~" H 8950 4750 50  0001 C CNN
-	1    8950 4750
+F 0 "R27" V 5243 4900 50  0000 C CNN
+F 1 "33k" V 5334 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4900 50  0001 C CNN
+F 3 "~" H 5450 4900 50  0001 C CNN
+	1    5450 4900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61305DAB
-P 8550 4550
+P 5050 4700
 AR Path="/61024B6A/61305DAB" Ref="R?"  Part="1" 
 AR Path="/612AE90B/61305DAB" Ref="R?"  Part="1" 
 AR Path="/61305DAB" Ref="R21"  Part="1" 
-F 0 "R21" V 8343 4550 50  0000 C CNN
-F 1 "91k" V 8434 4550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8480 4550 50  0001 C CNN
-F 3 "~" H 8550 4550 50  0001 C CNN
-	1    8550 4550
+F 0 "R21" V 4843 4700 50  0000 C CNN
+F 1 "91k" V 4934 4700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4980 4700 50  0001 C CNN
+F 3 "~" H 5050 4700 50  0001 C CNN
+	1    5050 4700
 	0    1    1    0   
 $EndComp
-Text Label 10825 4550 0    50   ~ 0
+Text Label 7325 4700 0    50   ~ 0
 ADC10
 $Comp
 L power:+12V #PWR0105
@@ -852,125 +852,125 @@ Text Label 4825 3175 0    50   ~ 0
 GainStageOut
 Text Label 4825 3375 0    50   ~ 0
 EmitterBypassOut
-Text Label 7325 4550 0    50   ~ 0
+Text Label 10825 4700 0    50   ~ 0
 ADC8
 $Comp
 L Device:R R?
 U 1 1 61302871
-P 5050 4550
+P 8550 4700
 AR Path="/61024B6A/61302871" Ref="R?"  Part="1" 
 AR Path="/612AE90B/61302871" Ref="R?"  Part="1" 
 AR Path="/61302871" Ref="R7"  Part="1" 
-F 0 "R7" V 4843 4550 50  0000 C CNN
-F 1 "91k" V 4934 4550 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4980 4550 50  0001 C CNN
-F 3 "~" H 5050 4550 50  0001 C CNN
-	1    5050 4550
+F 0 "R7" V 8343 4700 50  0000 C CNN
+F 1 "91k" V 8434 4700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8480 4700 50  0001 C CNN
+F 3 "~" H 8550 4700 50  0001 C CNN
+	1    8550 4700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61302877
-P 5450 4750
+P 8950 4900
 AR Path="/61024B6A/61302877" Ref="R?"  Part="1" 
 AR Path="/612AE90B/61302877" Ref="R?"  Part="1" 
 AR Path="/61302877" Ref="R13"  Part="1" 
-F 0 "R13" V 5243 4750 50  0000 C CNN
-F 1 "33k" V 5334 4750 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 4750 50  0001 C CNN
-F 3 "~" H 5450 4750 50  0001 C CNN
-	1    5450 4750
+F 0 "R13" V 8743 4900 50  0000 C CNN
+F 1 "33k" V 8834 4900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8880 4900 50  0001 C CNN
+F 3 "~" H 8950 4900 50  0001 C CNN
+	1    8950 4900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 4550 5450 4600
+	8950 4700 8950 4750
 Wire Wire Line
-	5200 4550 5450 4550
+	8700 4700 8950 4700
 $Comp
 L power:GND #PWR?
 U 1 1 6130287F
-P 5450 4900
+P 8950 5050
 AR Path="/61024B6A/6130287F" Ref="#PWR?"  Part="1" 
 AR Path="/612AE90B/6130287F" Ref="#PWR?"  Part="1" 
 AR Path="/6130287F" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 5450 4650 50  0001 C CNN
-F 1 "GND" H 5455 4727 50  0000 C CNN
-F 2 "" H 5450 4900 50  0001 C CNN
-F 3 "" H 5450 4900 50  0001 C CNN
-	1    5450 4900
+F 0 "#PWR0128" H 8950 4800 50  0001 C CNN
+F 1 "GND" H 8955 4877 50  0000 C CNN
+F 2 "" H 8950 5050 50  0001 C CNN
+F 3 "" H 8950 5050 50  0001 C CNN
+	1    8950 5050
 	1    0    0    -1  
 $EndComp
-Connection ~ 5450 4550
+Connection ~ 8950 4700
 Wire Wire Line
-	5450 4550 5775 4550
+	8950 4700 9275 4700
 $Sheet
-S 5775 4350 1400 1075
+S 9275 4500 1400 1075
 U 61302887
 F0 "ADC89" 50
 F1 "Filters.sch" 50
-F2 "IN1" I L 5775 4550 50 
-F3 "IN2" I L 5775 5275 50 
-F4 "OUT1" O R 7175 4550 50 
-F5 "OUT2" O R 7175 5275 50 
+F2 "IN1" I L 9275 4700 50 
+F3 "IN2" I L 9275 5425 50 
+F4 "OUT1" O R 10675 4700 50 
+F5 "OUT2" O R 10675 5425 50 
 $EndSheet
 Wire Wire Line
-	7325 4550 7175 4550
-Text Label 7350 5275 0    50   ~ 0
+	10825 4700 10675 4700
+Text Label 10850 5425 0    50   ~ 0
 ADC9
 Wire Wire Line
-	7350 5275 7175 5275
+	10850 5425 10675 5425
 $Comp
 L Device:R R?
 U 1 1 61302890
-P 5050 5275
+P 8550 5425
 AR Path="/61024B6A/61302890" Ref="R?"  Part="1" 
 AR Path="/612AE90B/61302890" Ref="R?"  Part="1" 
 AR Path="/61302890" Ref="R8"  Part="1" 
-F 0 "R8" V 4843 5275 50  0000 C CNN
-F 1 "91k" V 4934 5275 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4980 5275 50  0001 C CNN
-F 3 "~" H 5050 5275 50  0001 C CNN
-	1    5050 5275
+F 0 "R8" V 8343 5425 50  0000 C CNN
+F 1 "91k" V 8434 5425 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8480 5425 50  0001 C CNN
+F 3 "~" H 8550 5425 50  0001 C CNN
+	1    8550 5425
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61302896
-P 5450 5475
+P 8950 5625
 AR Path="/61024B6A/61302896" Ref="R?"  Part="1" 
 AR Path="/612AE90B/61302896" Ref="R?"  Part="1" 
 AR Path="/61302896" Ref="R14"  Part="1" 
-F 0 "R14" V 5243 5475 50  0000 C CNN
-F 1 "33k" V 5334 5475 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5380 5475 50  0001 C CNN
-F 3 "~" H 5450 5475 50  0001 C CNN
-	1    5450 5475
+F 0 "R14" V 8743 5625 50  0000 C CNN
+F 1 "33k" V 8834 5625 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8880 5625 50  0001 C CNN
+F 3 "~" H 8950 5625 50  0001 C CNN
+	1    8950 5625
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 5275 5450 5325
+	8950 5425 8950 5475
 Wire Wire Line
-	5200 5275 5450 5275
+	8700 5425 8950 5425
 $Comp
 L power:GND #PWR?
 U 1 1 6130289E
-P 5450 5625
+P 8950 5775
 AR Path="/61024B6A/6130289E" Ref="#PWR?"  Part="1" 
 AR Path="/612AE90B/6130289E" Ref="#PWR?"  Part="1" 
 AR Path="/6130289E" Ref="#PWR0129"  Part="1" 
-F 0 "#PWR0129" H 5450 5375 50  0001 C CNN
-F 1 "GND" H 5455 5452 50  0000 C CNN
-F 2 "" H 5450 5625 50  0001 C CNN
-F 3 "" H 5450 5625 50  0001 C CNN
-	1    5450 5625
+F 0 "#PWR0129" H 8950 5525 50  0001 C CNN
+F 1 "GND" H 8955 5602 50  0000 C CNN
+F 2 "" H 8950 5775 50  0001 C CNN
+F 3 "" H 8950 5775 50  0001 C CNN
+	1    8950 5775
 	1    0    0    -1  
 $EndComp
-Connection ~ 5450 5275
+Connection ~ 8950 5425
 Wire Wire Line
-	5450 5275 5775 5275
-Text Label 4900 4550 2    50   ~ 0
+	8950 5425 9275 5425
+Text Label 8400 4700 2    50   ~ 0
 PosDriverOut
-Text Label 4900 5275 2    50   ~ 0
+Text Label 8400 5425 2    50   ~ 0
 NegDriverOut
 $Sheet
 S 5775 1075 1400 1075
@@ -1105,10 +1105,10 @@ F 3 "~" H 3725 6350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0111
 U 1 1 61397393
 P 1050 1525
-F 0 "#PWR?" H 1050 1375 50  0001 C CNN
+F 0 "#PWR0111" H 1050 1375 50  0001 C CNN
 F 1 "+12V" V 1065 1653 50  0000 L CNN
 F 2 "" H 1050 1525 50  0001 C CNN
 F 3 "" H 1050 1525 50  0001 C CNN
@@ -1139,19 +1139,15 @@ Text Label 3275 1975 2    50   ~ 0
 NegDriverOut
 Text Label 3275 2075 2    50   ~ 0
 PosDriverOut
-Text Label 2375 4150 2    50   ~ 0
+Text Label 1300 4250 0    50   ~ 0
 SPRKPos
-Text Label 2375 4250 2    50   ~ 0
-SPRKNeg
-Text Label 1875 1125 0    50   ~ 0
-D12
 Text Label 1875 1225 0    50   ~ 0
 D11
 $Comp
-L Connector:Conn_01x08_Male J?
+L Connector:Conn_01x08_Male J4
 U 1 1 61424086
 P 1675 1125
-F 0 "J?" H 1783 1606 50  0000 C CNN
+F 0 "J4" H 1783 1606 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 1783 1515 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 1675 1125 50  0001 C CNN
 F 3 "~" H 1675 1125 50  0001 C CNN
@@ -1169,25 +1165,224 @@ Wire Notes Line
 Text Notes 1425 3625 0    50   ~ 0
 Arduino Header Pins
 Text Label 3775 975  0    50   ~ 0
-DriveHigh
+DriveCCW
 Text Label 3775 1075 0    50   ~ 0
 DriveMid
 Text Label 3775 1175 0    50   ~ 0
-DriveLow
+DriveCW
 Text Label 3775 1275 0    50   ~ 0
-ToneHigh
+ToneCCW
 Text Label 3775 1375 0    50   ~ 0
 ToneMid
 Text Label 3775 1475 0    50   ~ 0
-ToneLow
+ToneCW
 Text Label 3775 1575 0    50   ~ 0
-VolumeHigh
+VolumeCCW
 Text Label 3775 1675 0    50   ~ 0
 VolumeMid
 Text Label 3775 1775 0    50   ~ 0
-VolumeLow
+VolumeCW
 Text Label 3775 1875 0    50   ~ 0
 PresenceIn
 Text Label 3775 1975 0    50   ~ 0
 PresenceOut
+$Comp
+L SamacSys_Parts:PWR220T-35-8R00F R101
+U 1 1 614C8890
+P 4525 5425
+F 0 "R101" H 4875 5650 50  0000 C CNN
+F 1 "PWR220T-35-8R00F" H 4875 5559 50  0000 C CNN
+F 2 "TO508P438X1010X1539-2P" H 5075 5475 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PWR220T-35-8R00F.pdf" H 5075 5375 50  0001 L CNN
+F 4 "Thick Film Resistors - Through Hole 8ohm 35W 1% TOL Thru Hole" H 5075 5275 50  0001 L CNN "Description"
+F 5 "4.38" H 5075 5175 50  0001 L CNN "Height"
+F 6 "Bourns" H 5075 5075 50  0001 L CNN "Manufacturer_Name"
+F 7 "PWR220T-35-8R00F" H 5075 4975 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "652-PWR220T-35-8R00F" H 5075 4875 50  0001 L CNN "Mouser Part Number"
+F 9 "http://www.mouser.com/Search/ProductDetail.aspx?qs=Zq5ylnUbLm6EF6%252bwjhnGig%3d%3d" H 5075 4775 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5075 4675 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5075 4575 50  0001 L CNN "Arrow Price/Stock"
+	1    4525 5425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+12V #PWR0116
+U 1 1 61320435
+P 1300 4450
+F 0 "#PWR0116" H 1300 4300 50  0001 C CNN
+F 1 "+12V" V 1315 4578 50  0000 L CNN
+F 2 "" H 1300 4450 50  0001 C CNN
+F 3 "" H 1300 4450 50  0001 C CNN
+	1    1300 4450
+	0    1    1    0   
+$EndComp
+Text Label 1300 4350 0    50   ~ 0
+SPRKNeg
+Text Label 850  7200 2    50   ~ 0
+D11
+Text Label 850  6850 2    50   ~ 0
+D8
+Text Label 850  7000 2    50   ~ 0
+D9
+Text Label 850  7100 2    50   ~ 0
+D10
+Text Label 850  5450 2    50   ~ 0
+D2
+Text Label 850  5850 2    50   ~ 0
+D3
+Text Label 850  6050 2    50   ~ 0
+D4
+Text Label 850  6250 2    50   ~ 0
+D5
+Text Label 850  6550 2    50   ~ 0
+D6
+Text Label 850  6700 2    50   ~ 0
+D7
+Text Label 2500 6700 0    50   ~ 0
+ToneMid
+Text Label 2500 5550 0    50   ~ 0
+PresenceOut
+Text Label 2500 5450 0    50   ~ 0
+PresenceIn
+Text Label 2500 5850 0    50   ~ 0
+VolumeCW
+Text Label 2500 6050 0    50   ~ 0
+VolumeMid
+Text Label 2500 6250 0    50   ~ 0
+VolumeCCW
+Text Label 2500 6550 0    50   ~ 0
+ToneCW
+Text Label 2500 6850 0    50   ~ 0
+ToneCCW
+Text Label 2500 7000 0    50   ~ 0
+DriveCW
+Text Label 2500 7100 0    50   ~ 0
+DriveMid
+Text Label 2500 7200 0    50   ~ 0
+DriveCCW
+$Sheet
+S 850  4950 1650 2550
+U 61336958
+F0 "Relays" 50
+F1 "Relay.sch" 50
+F2 "in1" I L 850 5450 50 
+F3 "out1" O R 2500 5450 50 
+F4 "out2" O R 2500 5550 50 
+F5 "out4" O R 2500 6050 50 
+F6 "out3" O R 2500 5850 50 
+F7 "out5" O R 2500 6250 50 
+F8 "in2" I L 850 5850 50 
+F9 "in3" I L 850 6050 50 
+F10 "in4" I L 850 6250 50 
+F11 "in5" I L 850 6550 50 
+F12 "in6" I L 850 6700 50 
+F13 "out6" O R 2500 6550 50 
+F14 "out7" O R 2500 6700 50 
+F15 "out8" O R 2500 6850 50 
+F16 "out11" O R 2500 7200 50 
+F17 "out10" O R 2500 7100 50 
+F18 "out9" O R 2500 7000 50 
+F19 "in7" I L 850 6850 50 
+F20 "in8" I L 850 7000 50 
+F21 "in9" I L 850 7100 50 
+F22 "in10" I L 850 7200 50 
+$EndSheet
+$Comp
+L power:GND #PWR0117
+U 1 1 613209A5
+P 1300 4550
+F 0 "#PWR0117" H 1300 4300 50  0001 C CNN
+F 1 "GND" V 1305 4422 50  0000 R CNN
+F 2 "" H 1300 4550 50  0001 C CNN
+F 3 "" H 1300 4550 50  0001 C CNN
+	1    1300 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SamacSys_Parts:TB001-500-04BE J101
+U 1 1 6131A74D
+P 1300 4550
+F 0 "J101" H 1592 3985 50  0000 C CNN
+F 1 "TB001-500-04BE" H 1592 4076 50  0000 C CNN
+F 2 "TB00150004BE" H 1950 4650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/TB001-500-04BE.pdf" H 1950 4550 50  0001 L CNN
+F 4 "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount" H 1950 4450 50  0001 L CNN "Description"
+F 5 "12.9" H 1950 4350 50  0001 L CNN "Height"
+F 6 "CUI Inc." H 1950 4250 50  0001 L CNN "Manufacturer_Name"
+F 7 "TB001-500-04BE" H 1950 4150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "490-TB001-500-04BE" H 1950 4050 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB001-500-04BE?qs=vLWxofP3U2xFd1xqNcHXZA%3D%3D" H 1950 3950 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TB001-500-04BE" H 1950 3850 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?region=nac" H 1950 3750 50  0001 L CNN "Arrow Price/Stock"
+	1    1300 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4900 4700 4525 4700
+Wire Wire Line
+	4525 4700 4525 4725
+Wire Wire Line
+	4525 5425 4900 5425
+Wire Wire Line
+	4175 4625 4525 4625
+Wire Wire Line
+	4525 4625 4525 4700
+Connection ~ 4525 4700
+Wire Wire Line
+	4175 5575 4525 5575
+Wire Wire Line
+	4525 5575 4525 5425
+Connection ~ 4525 5425
+$Comp
+L SamacSys_Parts:TB001-500-03BE J102
+U 1 1 6151F148
+P 2600 4525
+F 0 "J102" H 2892 4060 50  0000 C CNN
+F 1 "TB001-500-03BE" H 2892 4151 50  0000 C CNN
+F 2 "TB00150003BE" H 3250 4625 50  0001 L CNN
+F 3 "https://www.cuidevices.com/product/resource/tb001-500.pdf" H 3250 4525 50  0001 L CNN
+F 4 "Fixed Terminal Blocks screw type, 5.00, horizontal, 3 poles, CUI Blue, slotted screw, PCB mount" H 3250 4425 50  0001 L CNN "Description"
+F 5 "12.9" H 3250 4325 50  0001 L CNN "Height"
+F 6 "CUI Inc." H 3250 4225 50  0001 L CNN "Manufacturer_Name"
+F 7 "TB001-500-03BE" H 3250 4125 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "490-TB001-500-03BE" H 3250 4025 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/TB001-500-03BE?qs=vLWxofP3U2xc%2FoleT4B9KQ%3D%3D" H 3250 3925 50  0001 L CNN "Mouser Price/Stock"
+F 10 "TB001-500-03BE" H 3250 3825 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/tb001-500-03be/cui-devices?region=nac" H 3250 3725 50  0001 L CNN "Arrow Price/Stock"
+	1    2600 4525
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+12V #PWR0195
+U 1 1 615233E3
+P 2600 4525
+F 0 "#PWR0195" H 2600 4375 50  0001 C CNN
+F 1 "+12V" V 2615 4653 50  0000 L CNN
+F 2 "" H 2600 4525 50  0001 C CNN
+F 3 "" H 2600 4525 50  0001 C CNN
+	1    2600 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0196
+U 1 1 615233E9
+P 2600 4425
+F 0 "#PWR0196" H 2600 4175 50  0001 C CNN
+F 1 "GND" V 2605 4297 50  0000 R CNN
+F 2 "" H 2600 4425 50  0001 C CNN
+F 3 "" H 2600 4425 50  0001 C CNN
+	1    2600 4425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:-12V #PWR0197
+U 1 1 61529640
+P 2600 4325
+F 0 "#PWR0197" H 2600 4425 50  0001 C CNN
+F 1 "-12V" V 2615 4453 50  0000 L CNN
+F 2 "" H 2600 4325 50  0001 C CNN
+F 3 "" H 2600 4325 50  0001 C CNN
+	1    2600 4325
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
