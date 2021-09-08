@@ -1,4 +1,4 @@
-Circuit: * D:\walto\Files\School\Fall_2021\COMPE-496B\senior_design\LTSpice\Filters\9V_highinput\9Vlowinput.asc
+Circuit: * D:\walto\Files\School\Fall_2021\COMPE-496B\senior_design\LTSpice\Filters\power_resistor\power_resistor.asc
 
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -29,20 +29,21 @@ Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Wed Sep 08 09:29:18 2021
-Total elapsed time: 0.099 seconds.
+Date: Wed Sep 08 11:25:20 2021
+Total elapsed time: 0.326 seconds.
 
 tnom = 27
 temp = 27
-method = trap
-totiter = 1679
-traniter = 0
-tranpoints = 0
-accept = 0
-rejected = 0
-matrix size = 77
-fillins = 518
+method = modified trap
+totiter = 2497
+traniter = 824
+tranpoints = 413
+accept = 299
+rejected = 114
+matrix size = 104
+fillins = 1043
 solver = Normal
-Matrix Compiler1:    2767 opcodes
-Matrix Compiler2: 15.81 KB object code size  1.0/0.8/[0.7]
+Thread vector: 4.7/3.2[2] 1.4/1.2[2] 1.8/1.5[2] 0.5/2.4[1]  2592/500
+Matrix Compiler1: 125.55 KB object code size  10.5/4.6/[3.8]
+Matrix Compiler2: 27.61 KB object code size  2.1/1.5/[1.2]
 
