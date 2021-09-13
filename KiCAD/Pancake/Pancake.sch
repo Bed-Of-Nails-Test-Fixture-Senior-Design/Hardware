@@ -581,7 +581,7 @@ Wire Wire Line
 Text Label 7325 1275 0    50   ~ 0
 ADC0
 $Comp
-L SamacSys_Parts:LF347N IC3
+L Pancake-rescue:LF347N-SamacSys_Parts IC3
 U 1 1 612701DD
 P 3725 2975
 F 0 "IC3" H 4275 3240 50  0000 C CNN
