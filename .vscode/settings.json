@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "chip.h": "c",
+        "sam.h": "c",
+        "sam3.h": "c",
+        "sam3xa.h": "c",
+        "sam3x8e.h": "c"
+    }
+}

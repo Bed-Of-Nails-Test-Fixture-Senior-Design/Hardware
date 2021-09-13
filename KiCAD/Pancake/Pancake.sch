@@ -109,11 +109,11 @@ Text Label 6500 6350 0    50   ~ 0
 GuitarIn
 Text Label 6500 7075 0    50   ~ 0
 AuxIn
-Text Label 4175 4625 2    50   ~ 0
+Text Label 4175 4475 2    50   ~ 0
 SPRKPos
 Text Label 8400 3625 2    50   ~ 0
 8VOut
-Text Label 4175 5575 2    50   ~ 0
+Text Label 4175 5775 2    50   ~ 0
 SPRKNeg
 Wire Wire Line
 	5450 5425 5775 5425
@@ -581,12 +581,12 @@ Wire Wire Line
 Text Label 7325 1275 0    50   ~ 0
 ADC0
 $Comp
-L Pancake-rescue:LF347N-SamacSys_Parts IC3
+L SamacSys_Parts:LF347N IC3
 U 1 1 612701DD
 P 3725 2975
 F 0 "IC3" H 4275 3240 50  0000 C CNN
 F 1 "LF347N" H 4275 3149 50  0000 C CNN
-F 2 "DIP794W56P254L1905H533Q14N" H 4675 3075 50  0001 L CNN
+F 2 "SamacSys_Parts:DIP794W56P254L1905H533Q14N" H 4675 3075 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lf347-n.pdf" H 4675 2975 50  0001 L CNN
 F 4 "Quad General-Purpose JFET-input Operational Amplifier" H 4675 2875 50  0001 L CNN "Description"
 F 5 "5.334" H 4675 2775 50  0001 L CNN "Height"
@@ -1187,22 +1187,22 @@ PresenceIn
 Text Label 3775 1975 0    50   ~ 0
 PresenceOut
 $Comp
-L Pancake-rescue:PWR220T-35-8R00F-SamacSys_Parts R101
+L SamacSys_Parts:PWR220T-35-8R00F R101
 U 1 1 614C8890
-P 4525 5425
-F 0 "R101" H 4875 5650 50  0000 C CNN
-F 1 "PWR220T-35-8R00F" H 4875 5559 50  0000 C CNN
-F 2 "TO508P438X1010X1539-2P" H 5075 5475 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/PWR220T-35-8R00F.pdf" H 5075 5375 50  0001 L CNN
-F 4 "Thick Film Resistors - Through Hole 8ohm 35W 1% TOL Thru Hole" H 5075 5275 50  0001 L CNN "Description"
-F 5 "4.38" H 5075 5175 50  0001 L CNN "Height"
-F 6 "Bourns" H 5075 5075 50  0001 L CNN "Manufacturer_Name"
-F 7 "PWR220T-35-8R00F" H 5075 4975 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "652-PWR220T-35-8R00F" H 5075 4875 50  0001 L CNN "Mouser Part Number"
-F 9 "http://www.mouser.com/Search/ProductDetail.aspx?qs=Zq5ylnUbLm6EF6%252bwjhnGig%3d%3d" H 5075 4775 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5075 4675 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5075 4575 50  0001 L CNN "Arrow Price/Stock"
-	1    4525 5425
+P 4525 5625
+F 0 "R101" H 4875 5850 50  0000 C CNN
+F 1 "PWR220T-35-8R00F" H 4875 5759 50  0000 C CNN
+F 2 "SamacSys_Parts:TO508P438X1010X1539-2P" H 5075 5675 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/PWR220T-35-8R00F.pdf" H 5075 5575 50  0001 L CNN
+F 4 "Thick Film Resistors - Through Hole 8ohm 35W 1% TOL Thru Hole" H 5075 5475 50  0001 L CNN "Description"
+F 5 "4.38" H 5075 5375 50  0001 L CNN "Height"
+F 6 "Bourns" H 5075 5275 50  0001 L CNN "Manufacturer_Name"
+F 7 "PWR220T-35-8R00F" H 5075 5175 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "652-PWR220T-35-8R00F" H 5075 5075 50  0001 L CNN "Mouser Part Number"
+F 9 "http://www.mouser.com/Search/ProductDetail.aspx?qs=Zq5ylnUbLm6EF6%252bwjhnGig%3d%3d" H 5075 4975 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 5075 4875 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 5075 4775 50  0001 L CNN "Arrow Price/Stock"
+	1    4525 5625
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1299,12 +1299,12 @@ F 3 "" H 1300 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Pancake-rescue:TB001-500-04BE-SamacSys_Parts J101
+L SamacSys_Parts:TB001-500-04BE J101
 U 1 1 6131A74D
 P 1300 4550
 F 0 "J101" H 1592 3985 50  0000 C CNN
 F 1 "TB001-500-04BE" H 1592 4076 50  0000 C CNN
-F 2 "TB00150004BE" H 1950 4650 50  0001 L CNN
+F 2 "SamacSys_Parts:TB00150004BE" H 1950 4650 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/1/TB001-500-04BE.pdf" H 1950 4550 50  0001 L CNN
 F 4 "Fixed Terminal Blocks Terminal block, screw type, 5.00, horizontal, 4 poles, CUI Blue, slotted screw, PCB mount" H 1950 4450 50  0001 L CNN "Description"
 F 5 "12.9" H 1950 4350 50  0001 L CNN "Height"
@@ -1318,28 +1318,20 @@ F 11 "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?region=nac" H
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4900 4700 4525 4700
+	4175 4475 4525 4475
 Wire Wire Line
-	4525 4700 4525 4725
+	4525 4475 4525 4550
 Wire Wire Line
-	4525 5425 4900 5425
+	4175 5775 4525 5775
 Wire Wire Line
-	4175 4625 4525 4625
-Wire Wire Line
-	4525 4625 4525 4700
-Connection ~ 4525 4700
-Wire Wire Line
-	4175 5575 4525 5575
-Wire Wire Line
-	4525 5575 4525 5425
-Connection ~ 4525 5425
+	4525 5775 4525 5625
 $Comp
-L Pancake-rescue:TB001-500-03BE-SamacSys_Parts J102
+L SamacSys_Parts:TB001-500-03BE J102
 U 1 1 6151F148
 P 2600 4525
 F 0 "J102" H 2892 4060 50  0000 C CNN
 F 1 "TB001-500-03BE" H 2892 4151 50  0000 C CNN
-F 2 "TB00150003BE" H 3250 4625 50  0001 L CNN
+F 2 "SamacSys_Parts:TB00150003BE" H 3250 4625 50  0001 L CNN
 F 3 "https://www.cuidevices.com/product/resource/tb001-500.pdf" H 3250 4525 50  0001 L CNN
 F 4 "Fixed Terminal Blocks screw type, 5.00, horizontal, 3 poles, CUI Blue, slotted screw, PCB mount" H 3250 4425 50  0001 L CNN "Description"
 F 5 "12.9" H 3250 4325 50  0001 L CNN "Height"
@@ -1385,4 +1377,34 @@ F 3 "" H 2600 4325 50  0001 C CNN
 	1    2600 4325
 	0    1    1    0   
 $EndComp
+$Comp
+L Device:C C?
+U 1 1 613EF2BB
+P 4525 4700
+AR Path="/61024B6A/613EF2BB" Ref="C?"  Part="1" 
+AR Path="/612AE90B/613EF2BB" Ref="C?"  Part="1" 
+AR Path="/613EF2BB" Ref="C101"  Part="1" 
+F 0 "C101" V 4273 4700 50  0000 C CNN
+F 1 "220nF" V 4364 4700 50  0000 C CNN
+F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 4563 4550 50  0001 C CNN
+F 3 "~" H 4525 4700 50  0001 C CNN
+	1    4525 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 4850 4525 4925
+Wire Wire Line
+	4900 4700 4825 4700
+Wire Wire Line
+	4825 4700 4825 4475
+Wire Wire Line
+	4825 4475 4525 4475
+Connection ~ 4525 4475
+Wire Wire Line
+	4900 5425 4825 5425
+Wire Wire Line
+	4825 5425 4825 5775
+Wire Wire Line
+	4825 5775 4525 5775
+Connection ~ 4525 5775
 $EndSCHEMATC
