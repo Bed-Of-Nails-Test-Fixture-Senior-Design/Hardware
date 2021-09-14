@@ -6,4 +6,4 @@ CADE WALTON
 
 OMAR ALAMATAR
 
-DANIEL VASQUEZ
+DANIEL VASQUEZ - This is by far the worst thing you could to me. Spell my last name wrong... Vazquez
