@@ -262,26 +262,6 @@ X 3IN- 9 1100 -500 200 L 50 50 0 0 I
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_PWR220T-35-8R00F
-#
-DEF SamacSys_Parts_PWR220T-35-8R00F R 0 30 Y Y 1 F N
-F0 "R" 550 250 50 H V L CNN
-F1 "SamacSys_Parts_PWR220T-35-8R00F" 550 150 50 H V L CNN
-F2 "TO508P438X1010X1539-2P" 550 50 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/PWR220T-35-8R00F.pdf" 550 -50 50 H I L CNN
-F4 "Thick Film Resistors - Through Hole 8ohm 35W 1% TOL Thru Hole" 550 -150 50 H I L CNN "Description"
-F5 "4.38" 550 -250 50 H I L CNN "Height"
-F6 "Bourns" 550 -350 50 H I L CNN "Manufacturer_Name"
-F7 "PWR220T-35-8R00F" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
-F8 "652-PWR220T-35-8R00F" 550 -550 50 H I L CNN "Mouser Part Number"
-F9 "http://www.mouser.com/Search/ProductDetail.aspx?qs=Zq5ylnUbLm6EF6%252bwjhnGig%3d%3d" 550 -650 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
-X ~ 1 0 0 200 R 50 50 0 0 P
-X ~ 2 700 0 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # SamacSys_Parts_TB001-500-03BE
 #
 DEF SamacSys_Parts_TB001-500-03BE J 0 30 Y Y 1 F N
