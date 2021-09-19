@@ -1430,4 +1430,59 @@ Wire Wire Line
 Connection ~ 4525 5525
 Wire Wire Line
 	4525 5525 4525 5775
+$Comp
+L SamacSys_Parts:150120GS75000 LED1
+U 1 1 61471F94
+P 3225 2850
+F 0 "LED1" H 3525 2583 50  0000 C CNN
+F 1 "150120GS75000" H 3525 2674 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric" H 3725 3000 50  0001 L BNN
+F 3 "https://docs-emea.rs-online.com/webdocs/1302/0900766b81302e28.pdf" H 3725 2900 50  0001 L BNN
+F 4 "LED,Wurth Elektronik,150120GS75000 Wurth Elektronik 150120GS75000, WL-SMCW Series Green LED, 520 nm, 3016 (1206) Clear, Rectangle Lens SMD Package" H 3725 2800 50  0001 L BNN "Description"
+F 5 "0.78" H 3725 2700 50  0001 L BNN "Height"
+F 6 "Wurth Elektronik" H 3725 2600 50  0001 L BNN "Manufacturer_Name"
+F 7 "150120GS75000" H 3725 2500 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "710-150120GS75000" H 3725 2400 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150120GS75000?qs=LlUlMxKIyB3I3AMxrmBw4A%3D%3D" H 3725 2300 50  0001 L BNN "Mouser Price/Stock"
+F 10 "" H 3725 2200 50  0001 L BNN "Arrow Part Number"
+F 11 "" H 3725 2100 50  0001 L BNN "Arrow Price/Stock"
+	1    3225 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6147D62C
+P 2625 3000
+AR Path="/61024B6A/6147D62C" Ref="R?"  Part="1" 
+AR Path="/612AE90B/6147D62C" Ref="R?"  Part="1" 
+AR Path="/6147D62C" Ref="R87"  Part="1" 
+F 0 "R87" V 2418 3000 50  0000 C CNN
+F 1 "500" V 2509 3000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2555 3000 50  0001 C CNN
+F 3 "~" H 2625 3000 50  0001 C CNN
+	1    2625 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR01
+U 1 1 61484A8A
+P 2625 3150
+F 0 "#PWR01" H 2625 3000 50  0001 C CNN
+F 1 "+12V" H 2640 3323 50  0000 C CNN
+F 2 "" H 2625 3150 50  0001 C CNN
+F 3 "" H 2625 3150 50  0001 C CNN
+	1    2625 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 61485A09
+P 3225 2850
+F 0 "#PWR02" H 3225 2600 50  0001 C CNN
+F 1 "GND" H 3230 2677 50  0000 C CNN
+F 2 "" H 3225 2850 50  0001 C CNN
+F 3 "" H 3225 2850 50  0001 C CNN
+	1    3225 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

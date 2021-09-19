@@ -581,25 +581,6 @@ Wire Wire Line
 Text Label 7325 1275 0    50   ~ 0
 ADC0
 $Comp
-L SamacSys_Parts:LF347N IC3
-U 1 1 612701DD
-P 3725 2975
-F 0 "IC3" H 4275 3240 50  0000 C CNN
-F 1 "LF347N" H 4275 3149 50  0000 C CNN
-F 2 "SamacSys_Parts:DIP794W56P254L1905H533Q14N" H 4675 3075 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lf347-n.pdf" H 4675 2975 50  0001 L CNN
-F 4 "Quad General-Purpose JFET-input Operational Amplifier" H 4675 2875 50  0001 L CNN "Description"
-F 5 "5.334" H 4675 2775 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 4675 2675 50  0001 L CNN "Manufacturer_Name"
-F 7 "LF347N" H 4675 2575 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-LF347N" H 4675 2475 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF347N?qs=DcvZ7Fltd5zOlQRQ%252BiS7vA%3D%3D" H 4675 2375 50  0001 L CNN "Mouser Price/Stock"
-F 10 "LF347N" H 4675 2275 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/lf347n/texas-instruments" H 4675 2175 50  0001 L CNN "Arrow Price/Stock"
-	1    3725 2975
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 612B11A5
 P 5050 1275
@@ -1187,25 +1168,6 @@ PresenceIn
 Text Label 3775 1975 0    50   ~ 0
 PresenceOut
 $Comp
-L SamacSys_Parts:PWR220T-35-8R00F R101
-U 1 1 614C8890
-P 4525 5625
-F 0 "R101" H 4875 5850 50  0000 C CNN
-F 1 "PWR220T-35-8R00F" H 4875 5759 50  0000 C CNN
-F 2 "SamacSys_Parts:TO508P438X1010X1539-2P" H 5075 5675 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/PWR220T-35-8R00F.pdf" H 5075 5575 50  0001 L CNN
-F 4 "Thick Film Resistors - Through Hole 8ohm 35W 1% TOL Thru Hole" H 5075 5475 50  0001 L CNN "Description"
-F 5 "4.38" H 5075 5375 50  0001 L CNN "Height"
-F 6 "Bourns" H 5075 5275 50  0001 L CNN "Manufacturer_Name"
-F 7 "PWR220T-35-8R00F" H 5075 5175 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "652-PWR220T-35-8R00F" H 5075 5075 50  0001 L CNN "Mouser Part Number"
-F 9 "http://www.mouser.com/Search/ProductDetail.aspx?qs=Zq5ylnUbLm6EF6%252bwjhnGig%3d%3d" H 5075 4975 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5075 4875 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5075 4775 50  0001 L CNN "Arrow Price/Stock"
-	1    4525 5625
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+12V #PWR0116
 U 1 1 61320435
 P 1300 4450
@@ -1323,8 +1285,6 @@ Wire Wire Line
 	4525 4475 4525 4550
 Wire Wire Line
 	4175 5775 4525 5775
-Wire Wire Line
-	4525 5775 4525 5625
 $Comp
 L SamacSys_Parts:TB001-500-03BE J102
 U 1 1 6151F148
@@ -1392,8 +1352,6 @@ F 3 "~" H 4525 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4525 4850 4525 4925
-Wire Wire Line
 	4900 4700 4825 4700
 Wire Wire Line
 	4825 4700 4825 4475
@@ -1407,4 +1365,69 @@ Wire Wire Line
 Wire Wire Line
 	4825 5775 4525 5775
 Connection ~ 4525 5775
+$Comp
+L SamacSys_Parts:LF347N IC3
+U 1 1 612701DD
+P 3725 2975
+F 0 "IC3" H 4275 3240 50  0000 C CNN
+F 1 "LF347N" H 4275 3149 50  0000 C CNN
+F 2 "SamacSys_Parts:DIP794W56P254L1905H533Q14N" H 4675 3075 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf347-n.pdf" H 4675 2975 50  0001 L CNN
+F 4 "Quad General-Purpose JFET-input Operational Amplifier" H 4675 2875 50  0001 L CNN "Description"
+F 5 "5.334" H 4675 2775 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 4675 2675 50  0001 L CNN "Manufacturer_Name"
+F 7 "LF347N" H 4675 2575 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-LF347N" H 4675 2475 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LF347N?qs=DcvZ7Fltd5zOlQRQ%252BiS7vA%3D%3D" H 4675 2375 50  0001 L CNN "Mouser Price/Stock"
+F 10 "LF347N" H 4675 2275 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/lf347n/texas-instruments" H 4675 2175 50  0001 L CNN "Arrow Price/Stock"
+	1    3725 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61472647
+P 4525 5275
+AR Path="/61024B6A/61472647" Ref="R?"  Part="1" 
+AR Path="/612AE90B/61472647" Ref="R?"  Part="1" 
+AR Path="/61472647" Ref="R86"  Part="1" 
+F 0 "R86" V 4318 5275 50  0000 C CNN
+F 1 "10" V 4409 5275 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 4455 5275 50  0001 C CNN
+F 3 "~" H 4525 5275 50  0001 C CNN
+	1    4525 5275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 614731F4
+P 4225 5275
+AR Path="/61024B6A/614731F4" Ref="R?"  Part="1" 
+AR Path="/612AE90B/614731F4" Ref="R?"  Part="1" 
+AR Path="/614731F4" Ref="R85"  Part="1" 
+F 0 "R85" V 4018 5275 50  0000 C CNN
+F 1 "10" V 4109 5275 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_Power_L48.0mm_W12.5mm_P55.88mm" V 4155 5275 50  0001 C CNN
+F 3 "~" H 4225 5275 50  0001 C CNN
+	1    4225 5275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4525 4850 4525 5050
+Wire Wire Line
+	4225 5125 4225 5050
+Wire Wire Line
+	4225 5050 4525 5050
+Connection ~ 4525 5050
+Wire Wire Line
+	4525 5050 4525 5125
+Wire Wire Line
+	4225 5425 4225 5525
+Wire Wire Line
+	4225 5525 4525 5525
+Wire Wire Line
+	4525 5425 4525 5525
+Connection ~ 4525 5525
+Wire Wire Line
+	4525 5525 4525 5775
 $EndSCHEMATC
