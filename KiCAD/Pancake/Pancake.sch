@@ -1436,7 +1436,7 @@ U 1 1 61471F94
 P 3225 2850
 F 0 "LED1" H 3525 2583 50  0000 C CNN
 F 1 "150120GS75000" H 3525 2674 50  0000 C CNN
-F 2 "LED_SMD:LED_1206_3216Metric" H 3725 3000 50  0001 L BNN
+F 2 "SamacSys_Parts:LEDC3214X78N" H 3725 3000 50  0001 L BNN
 F 3 "https://docs-emea.rs-online.com/webdocs/1302/0900766b81302e28.pdf" H 3725 2900 50  0001 L BNN
 F 4 "LED,Wurth Elektronik,150120GS75000 Wurth Elektronik 150120GS75000, WL-SMCW Series Green LED, 520 nm, 3016 (1206) Clear, Rectangle Lens SMD Package" H 3725 2800 50  0001 L BNN "Description"
 F 5 "0.78" H 3725 2700 50  0001 L BNN "Height"
@@ -1458,7 +1458,7 @@ AR Path="/612AE90B/6147D62C" Ref="R?"  Part="1"
 AR Path="/6147D62C" Ref="R87"  Part="1" 
 F 0 "R87" V 2418 3000 50  0000 C CNN
 F 1 "500" V 2509 3000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2555 3000 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2555 3000 50  0001 C CNN
 F 3 "~" H 2625 3000 50  0001 C CNN
 	1    2625 3000
 	1    0    0    -1  
@@ -1483,6 +1483,139 @@ F 1 "GND" H 3230 2677 50  0000 C CNN
 F 2 "" H 3225 2850 50  0001 C CNN
 F 3 "" H 3225 2850 50  0001 C CNN
 	1    3225 2850
+	1    0    0    -1  
+$EndComp
+Text Label 1875 1125 0    50   ~ 0
+D12
+$Comp
+L Device:R R88
+U 1 1 6148EF40
+P 3250 4125
+F 0 "R88" H 3320 4171 50  0000 L CNN
+F 1 "150" H 3320 4080 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3180 4125 50  0001 C CNN
+F 3 "~" H 3250 4125 50  0001 C CNN
+	1    3250 4125
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:150120GS75000 LED2
+U 1 1 6148FA49
+P 3850 3975
+F 0 "LED2" H 4150 3708 50  0000 C CNN
+F 1 "150120GS75000" H 4150 3799 50  0000 C CNN
+F 2 "SamacSys_Parts:LEDC3214X78N" H 4350 4125 50  0001 L BNN
+F 3 "https://docs-emea.rs-online.com/webdocs/1302/0900766b81302e28.pdf" H 4350 4025 50  0001 L BNN
+F 4 "LED,Wurth Elektronik,150120GS75000 Wurth Elektronik 150120GS75000, WL-SMCW Series Green LED, 520 nm, 3016 (1206) Clear, Rectangle Lens SMD Package" H 4350 3925 50  0001 L BNN "Description"
+F 5 "0.78" H 4350 3825 50  0001 L BNN "Height"
+F 6 "Wurth Elektronik" H 4350 3725 50  0001 L BNN "Manufacturer_Name"
+F 7 "150120GS75000" H 4350 3625 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "710-150120GS75000" H 4350 3525 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150120GS75000?qs=LlUlMxKIyB3I3AMxrmBw4A%3D%3D" H 4350 3425 50  0001 L BNN "Mouser Price/Stock"
+F 10 "" H 4350 3325 50  0001 L BNN "Arrow Part Number"
+F 11 "" H 4350 3225 50  0001 L BNN "Arrow Price/Stock"
+	1    3850 3975
+	-1   0    0    1   
+$EndComp
+Text Label 3850 3975 0    50   ~ 0
+D12
+$Comp
+L power:+5V #PWR03
+U 1 1 61490D1B
+P 3250 4275
+F 0 "#PWR03" H 3250 4125 50  0001 C CNN
+F 1 "+5V" H 3265 4448 50  0000 C CNN
+F 2 "" H 3250 4275 50  0001 C CNN
+F 3 "" H 3250 4275 50  0001 C CNN
+	1    3250 4275
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 614F31BA
+P 10850 6325
+F 0 "H4" V 10995 6328 50  0000 C CNN
+F 1 "MountingHole_Pad" V 10996 6328 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 10850 6325 50  0001 C CNN
+F 3 "~" H 10850 6325 50  0001 C CNN
+	1    10850 6325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 614F33F8
+P 9750 5925
+F 0 "H1" V 9895 5928 50  0000 C CNN
+F 1 "MountingHole_Pad" V 9896 5928 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 9750 5925 50  0001 C CNN
+F 3 "~" H 9750 5925 50  0001 C CNN
+	1    9750 5925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 614F2F92
+P 10850 5925
+F 0 "H3" V 10995 5928 50  0000 C CNN
+F 1 "MountingHole_Pad" V 10996 5928 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 10850 5925 50  0001 C CNN
+F 3 "~" H 10850 5925 50  0001 C CNN
+	1    10850 5925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 614E9F86
+P 9750 6325
+F 0 "H2" V 9895 6328 50  0000 C CNN
+F 1 "MountingHole_Pad" V 9896 6328 50  0001 C CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad_Via" H 9750 6325 50  0001 C CNN
+F 3 "~" H 9750 6325 50  0001 C CNN
+	1    9750 6325
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 614F93B8
+P 9850 5925
+F 0 "#PWR04" H 9850 5675 50  0001 C CNN
+F 1 "GND" H 9855 5752 50  0000 C CNN
+F 2 "" H 9850 5925 50  0001 C CNN
+F 3 "" H 9850 5925 50  0001 C CNN
+	1    9850 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 614FA4A2
+P 10950 5925
+F 0 "#PWR06" H 10950 5675 50  0001 C CNN
+F 1 "GND" H 10955 5752 50  0000 C CNN
+F 2 "" H 10950 5925 50  0001 C CNN
+F 3 "" H 10950 5925 50  0001 C CNN
+	1    10950 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 614FABB2
+P 9850 6325
+F 0 "#PWR05" H 9850 6075 50  0001 C CNN
+F 1 "GND" H 9855 6152 50  0000 C CNN
+F 2 "" H 9850 6325 50  0001 C CNN
+F 3 "" H 9850 6325 50  0001 C CNN
+	1    9850 6325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 614FBC89
+P 10950 6325
+F 0 "#PWR07" H 10950 6075 50  0001 C CNN
+F 1 "GND" H 10955 6152 50  0000 C CNN
+F 2 "" H 10950 6325 50  0001 C CNN
+F 3 "" H 10950 6325 50  0001 C CNN
+	1    10950 6325
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
