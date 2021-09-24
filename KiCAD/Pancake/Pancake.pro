@@ -1,4 +1,4 @@
-update=9/14/2021 1:19:03 AM
+update=9/20/2021 7:47:17 PM
 version=1
 last_client=kicad
 [general]
@@ -245,6 +245,17 @@ Clearance=0.2
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=MARKY MARK
+Clearance=0.2032
+TrackWidth=1.00076
+ViaDiameter=1.40208
+ViaDrill=0.70104
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
