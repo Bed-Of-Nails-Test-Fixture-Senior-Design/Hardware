@@ -1,4 +1,4 @@
-Circuit: * C:\CCode\senior_design\LTSpice\Filters\power_resistor\power_resistor.asc
+Circuit: * C:\ComCode\Pancake\Hardware\LTSpice\Filters\power_resistor\power_resistor.asc
 
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
@@ -29,8 +29,8 @@ Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Thu Sep 09 12:58:25 2021
-Total elapsed time: 0.179 seconds.
+Date: Mon Sep 13 11:05:26 2021
+Total elapsed time: 0.109 seconds.
 
 tnom = 27
 temp = 27
@@ -44,5 +44,5 @@ matrix size = 109
 fillins = 424
 solver = Normal
 Matrix Compiler1:    1726 opcodes
-Matrix Compiler2: 16.94 KB object code size  2.1/2.2/[0.5]
+Matrix Compiler2: 16.94 KB object code size  1.1/1.0/[0.7]
 

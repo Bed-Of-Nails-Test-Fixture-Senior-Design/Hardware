@@ -1433,56 +1433,56 @@ Wire Wire Line
 $Comp
 L SamacSys_Parts:150120GS75000 LED1
 U 1 1 61471F94
-P 3225 2850
-F 0 "LED1" H 3525 2583 50  0000 C CNN
-F 1 "150120GS75000" H 3525 2674 50  0000 C CNN
-F 2 "SamacSys_Parts:LEDC3214X78N" H 3725 3000 50  0001 L BNN
-F 3 "https://docs-emea.rs-online.com/webdocs/1302/0900766b81302e28.pdf" H 3725 2900 50  0001 L BNN
-F 4 "LED,Wurth Elektronik,150120GS75000 Wurth Elektronik 150120GS75000, WL-SMCW Series Green LED, 520 nm, 3016 (1206) Clear, Rectangle Lens SMD Package" H 3725 2800 50  0001 L BNN "Description"
-F 5 "0.78" H 3725 2700 50  0001 L BNN "Height"
-F 6 "Wurth Elektronik" H 3725 2600 50  0001 L BNN "Manufacturer_Name"
-F 7 "150120GS75000" H 3725 2500 50  0001 L BNN "Manufacturer_Part_Number"
-F 8 "710-150120GS75000" H 3725 2400 50  0001 L BNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150120GS75000?qs=LlUlMxKIyB3I3AMxrmBw4A%3D%3D" H 3725 2300 50  0001 L BNN "Mouser Price/Stock"
-F 10 "" H 3725 2200 50  0001 L BNN "Arrow Part Number"
-F 11 "" H 3725 2100 50  0001 L BNN "Arrow Price/Stock"
-	1    3225 2850
+P 3425 2800
+F 0 "LED1" H 3725 2533 50  0000 C CNN
+F 1 "150120GS75000" H 3725 2624 50  0000 C CNN
+F 2 "SamacSys_Parts:LEDC3214X78N" H 3925 2950 50  0001 L BNN
+F 3 "https://docs-emea.rs-online.com/webdocs/1302/0900766b81302e28.pdf" H 3925 2850 50  0001 L BNN
+F 4 "LED,Wurth Elektronik,150120GS75000 Wurth Elektronik 150120GS75000, WL-SMCW Series Green LED, 520 nm, 3016 (1206) Clear, Rectangle Lens SMD Package" H 3925 2750 50  0001 L BNN "Description"
+F 5 "0.78" H 3925 2650 50  0001 L BNN "Height"
+F 6 "Wurth Elektronik" H 3925 2550 50  0001 L BNN "Manufacturer_Name"
+F 7 "150120GS75000" H 3925 2450 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "710-150120GS75000" H 3925 2350 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150120GS75000?qs=LlUlMxKIyB3I3AMxrmBw4A%3D%3D" H 3925 2250 50  0001 L BNN "Mouser Price/Stock"
+F 10 "" H 3925 2150 50  0001 L BNN "Arrow Part Number"
+F 11 "" H 3925 2050 50  0001 L BNN "Arrow Price/Stock"
+	1    3425 2800
 	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 6147D62C
-P 2625 3000
+P 3000 3125
 AR Path="/61024B6A/6147D62C" Ref="R?"  Part="1" 
 AR Path="/612AE90B/6147D62C" Ref="R?"  Part="1" 
 AR Path="/6147D62C" Ref="R87"  Part="1" 
-F 0 "R87" V 2418 3000 50  0000 C CNN
-F 1 "500" V 2509 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2555 3000 50  0001 C CNN
-F 3 "~" H 2625 3000 50  0001 C CNN
-	1    2625 3000
-	1    0    0    -1  
+F 0 "R87" V 2793 3125 50  0000 C CNN
+F 1 "1000" V 2884 3125 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2930 3125 50  0001 C CNN
+F 3 "~" H 3000 3125 50  0001 C CNN
+	1    3000 3125
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR01
 U 1 1 61484A8A
-P 2625 3150
-F 0 "#PWR01" H 2625 3000 50  0001 C CNN
-F 1 "+12V" H 2640 3323 50  0000 C CNN
-F 2 "" H 2625 3150 50  0001 C CNN
-F 3 "" H 2625 3150 50  0001 C CNN
-	1    2625 3150
+P 2825 3300
+F 0 "#PWR01" H 2825 3150 50  0001 C CNN
+F 1 "+12V" H 2840 3473 50  0000 C CNN
+F 2 "" H 2825 3300 50  0001 C CNN
+F 3 "" H 2825 3300 50  0001 C CNN
+	1    2825 3300
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR02
 U 1 1 61485A09
-P 3225 2850
-F 0 "#PWR02" H 3225 2600 50  0001 C CNN
-F 1 "GND" H 3230 2677 50  0000 C CNN
-F 2 "" H 3225 2850 50  0001 C CNN
-F 3 "" H 3225 2850 50  0001 C CNN
-	1    3225 2850
+P 3425 2800
+F 0 "#PWR02" H 3425 2550 50  0001 C CNN
+F 1 "GND" H 3430 2627 50  0000 C CNN
+F 2 "" H 3425 2800 50  0001 C CNN
+F 3 "" H 3425 2800 50  0001 C CNN
+	1    3425 2800
 	1    0    0    -1  
 $EndComp
 Text Label 1875 1125 0    50   ~ 0
@@ -1618,4 +1618,32 @@ F 3 "" H 10950 6325 50  0001 C CNN
 	1    10950 6325
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R R?
+U 1 1 614E4DCA
+P 2625 3125
+AR Path="/61024B6A/614E4DCA" Ref="R?"  Part="1" 
+AR Path="/612AE90B/614E4DCA" Ref="R?"  Part="1" 
+AR Path="/614E4DCA" Ref="R89"  Part="1" 
+F 0 "R89" V 2418 3125 50  0000 C CNN
+F 1 "1000" V 2509 3125 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 2555 3125 50  0001 C CNN
+F 3 "~" H 2625 3125 50  0001 C CNN
+	1    2625 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 3300 2825 3275
+Wire Wire Line
+	2825 3275 3000 3275
+Wire Wire Line
+	2625 3275 2825 3275
+Connection ~ 2825 3275
+Wire Wire Line
+	2625 2975 2825 2975
+Wire Wire Line
+	2825 2800 2825 2975
+Connection ~ 2825 2975
+Wire Wire Line
+	2825 2975 3000 2975
 $EndSCHEMATC
