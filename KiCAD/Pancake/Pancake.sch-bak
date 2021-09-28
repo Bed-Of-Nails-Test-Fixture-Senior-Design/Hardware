@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Pancake Test Fixture"
+Date "2021-09-26"
+Rev "A"
+Comp "San Diego State University"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -1431,7 +1431,7 @@ Connection ~ 4525 5525
 Wire Wire Line
 	4525 5525 4525 5775
 $Comp
-L SamacSys_Parts:150120GS75000 LED1
+L Pancake-rescue:150120GS75000-SamacSys_Parts LED1
 U 1 1 61471F94
 P 3425 2800
 F 0 "LED1" H 3725 2533 50  0000 C CNN
@@ -1499,7 +1499,7 @@ F 3 "~" H 3250 4125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SamacSys_Parts:150120GS75000 LED2
+L Pancake-rescue:150120GS75000-SamacSys_Parts LED2
 U 1 1 6148FA49
 P 3850 3975
 F 0 "LED2" H 4150 3708 50  0000 C CNN
