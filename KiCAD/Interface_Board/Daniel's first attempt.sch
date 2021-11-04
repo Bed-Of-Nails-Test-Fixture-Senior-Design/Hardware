@@ -44,10 +44,10 @@ F 11 "https://www.arrow.com/en/products/tb001-500-04be/cui-devices?region=nac" H
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP13
+L Connector:TestPoint TP13-SourceFollowerOut1
 U 1 1 617DF766
 P 4025 1625
-F 0 "TP13" H 4083 1743 50  0000 L CNN
+F 0 "TP13-SourceFollowerOut1" H 4083 1743 50  0000 L CNN
 F 1 "Source Follower Out" H 4083 1652 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4225 1625 50  0001 C CNN
 F 3 "~" H 4225 1625 50  0001 C CNN
@@ -55,10 +55,10 @@ F 3 "~" H 4225 1625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint TP7-EmitterBypassOut1
 U 1 1 617DFF9B
 P 6475 1275
-F 0 "TP7" H 6533 1393 50  0000 L CNN
+F 0 "TP7-EmitterBypassOut1" H 6533 1393 50  0000 L CNN
 F 1 "Emitter Bypass Out" H 6533 1302 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 6675 1275 50  0001 C CNN
 F 3 "~" H 6675 1275 50  0001 C CNN
@@ -66,10 +66,10 @@ F 3 "~" H 6675 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP6
+L Connector:TestPoint TP6-GainStageOut1
 U 1 1 617E01C4
 P 5050 1275
-F 0 "TP6" H 5108 1393 50  0000 L CNN
+F 0 "TP6-GainStageOut1" H 5108 1393 50  0000 L CNN
 F 1 "Gain Stage Out" H 5108 1302 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5250 1275 50  0001 C CNN
 F 3 "~" H 5250 1275 50  0001 C CNN
@@ -77,10 +77,10 @@ F 3 "~" H 5250 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP2
+L Connector:TestPoint TP2-GND1
 U 1 1 617E047D
 P 1775 1250
-F 0 "TP2" H 1833 1368 50  0000 L CNN
+F 0 "TP2-GND1" H 1833 1368 50  0000 L CNN
 F 1 "GND" H 1833 1277 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 1975 1250 50  0001 C CNN
 F 3 "~" H 1975 1250 50  0001 C CNN
@@ -88,10 +88,10 @@ F 3 "~" H 1975 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP11
+L Connector:TestPoint TP11-PosDriverOut1
 U 1 1 617E0DD9
 P 1275 1625
-F 0 "TP11" H 1333 1743 50  0000 L CNN
+F 0 "TP11-PosDriverOut1" H 1333 1743 50  0000 L CNN
 F 1 "Pos Driver Out" H 1333 1652 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 1475 1625 50  0001 C CNN
 F 3 "~" H 1475 1625 50  0001 C CNN
@@ -99,10 +99,10 @@ F 3 "~" H 1475 1625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP3
+L Connector:TestPoint TP3-12V1
 U 1 1 617E10F0
 P 2350 1250
-F 0 "TP3" H 2408 1368 50  0000 L CNN
+F 0 "TP3-12V1" H 2408 1368 50  0000 L CNN
 F 1 "12V" H 2408 1277 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 2550 1250 50  0001 C CNN
 F 3 "~" H 2550 1250 50  0001 C CNN
@@ -110,10 +110,10 @@ F 3 "~" H 2550 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP17
+L Connector:TestPoint TP17-GuitarIn1
 U 1 1 617E147A
 P 9300 1625
-F 0 "TP17" H 9358 1743 50  0000 L CNN
+F 0 "TP17-GuitarIn1" H 9358 1743 50  0000 L CNN
 F 1 "Guitar In" H 9358 1652 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9500 1625 50  0001 C CNN
 F 3 "~" H 9500 1625 50  0001 C CNN
@@ -121,10 +121,10 @@ F 3 "~" H 9500 1625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP10
+L Connector:TestPoint TP10-EmitterFollowerOut1
 U 1 1 617E7A4C
 P 10375 1250
-F 0 "TP10" H 10433 1368 50  0000 L CNN
+F 0 "TP10-EmitterFollowerOut1" H 10433 1368 50  0000 L CNN
 F 1 "Emitter Follower Out" H 10433 1277 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10575 1250 50  0001 C CNN
 F 3 "~" H 10575 1250 50  0001 C CNN
@@ -132,10 +132,10 @@ F 3 "~" H 10575 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP1
+L Connector:TestPoint TP1-GND1
 U 1 1 617E7D91
 P 1275 1250
-F 0 "TP1" H 1333 1368 50  0000 L CNN
+F 0 "TP1-GND1" H 1333 1368 50  0000 L CNN
 F 1 "GND" H 1333 1277 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 1475 1250 50  0001 C CNN
 F 3 "~" H 1475 1250 50  0001 C CNN
@@ -143,10 +143,10 @@ F 3 "~" H 1475 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP5-8Vout1
 U 1 1 617E81A9
 P 4025 1275
-F 0 "TP5" H 4083 1393 50  0000 L CNN
+F 0 "TP5-8Vout1" H 4083 1393 50  0000 L CNN
 F 1 "TestPoint" H 4083 1302 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4225 1275 50  0001 C CNN
 F 3 "~" H 4225 1275 50  0001 C CNN
@@ -154,10 +154,10 @@ F 3 "~" H 4225 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP8
+L Connector:TestPoint TP8-6Vout1
 U 1 1 617E85FA
 P 7825 1275
-F 0 "TP8" H 7883 1393 50  0000 L CNN
+F 0 "TP8-6Vout1" H 7883 1393 50  0000 L CNN
 F 1 "6V Out" H 7883 1302 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 8025 1275 50  0001 C CNN
 F 3 "~" H 8025 1275 50  0001 C CNN
@@ -165,10 +165,10 @@ F 3 "~" H 8025 1275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP9
+L Connector:TestPoint TP9-NegDriverOut1
 U 1 1 617E90F3
 P 8850 1250
-F 0 "TP9" H 8908 1368 50  0000 L CNN
+F 0 "TP9-NegDriverOut1" H 8908 1368 50  0000 L CNN
 F 1 "Neg Driver Out" H 8908 1277 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 9050 1250 50  0001 C CNN
 F 3 "~" H 9050 1250 50  0001 C CNN
@@ -235,10 +235,10 @@ F 3 "~" H 10650 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H1
+L Mechanical:MountingHole_Pad Tp12-SPKR+1
 U 1 1 617FBB9A
 P 8500 5075
-F 0 "H1" H 8600 5124 50  0000 L CNN
+F 0 "Tp12-SPKR+1" H 8600 5124 50  0000 L CNN
 F 1 "SPKRPOS" H 8600 5033 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 8500 5075 50  0001 C CNN
 F 3 "~" H 8500 5075 50  0001 C CNN
@@ -246,10 +246,10 @@ F 3 "~" H 8500 5075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2
+L Mechanical:MountingHole_Pad TP14-SPKR-1
 U 1 1 617FC0AA
 P 8500 5475
-F 0 "H2" H 8600 5524 50  0000 L CNN
+F 0 "TP14-SPKR-1" H 8600 5524 50  0000 L CNN
 F 1 "SPKRNEG" H 8600 5433 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 8500 5475 50  0001 C CNN
 F 3 "~" H 8500 5475 50  0001 C CNN
@@ -257,10 +257,10 @@ F 3 "~" H 8500 5475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H3
+L Mechanical:MountingHole_Pad +12V1
 U 1 1 617FC400
 P 8500 5825
-F 0 "H3" H 8600 5874 50  0000 L CNN
+F 0 "+12V1" H 8600 5874 50  0000 L CNN
 F 1 "POWER" H 8600 5783 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 8500 5825 50  0001 C CNN
 F 3 "~" H 8500 5825 50  0001 C CNN
@@ -345,14 +345,6 @@ Wire Wire Line
 Connection ~ 7850 4475
 Wire Wire Line
 	7850 4475 7675 4475
-Text GLabel 8875 3125 2    50   Input ~ 0
-noconnection
-Text GLabel 8875 3225 2    50   Input ~ 0
-noconnection
-Text GLabel 8875 3325 2    50   Input ~ 0
-noconnection
-Text GLabel 8875 3425 2    50   Input ~ 0
-noconnection
 Text GLabel 10550 4650 0    50   Input ~ 0
 GND
 Text GLabel 1275 1250 0    50   Input ~ 0
@@ -364,10 +356,10 @@ Text GLabel 2350 1250 0    50   Input ~ 0
 Text GLabel 8375 2725 0    50   Input ~ 0
 12VDC
 $Comp
-L Connector:TestPoint TP4
+L Connector:TestPoint TP4-PreampOut1
 U 1 1 617E064B
 P 3075 1250
-F 0 "TP4" H 3133 1368 50  0000 L CNN
+F 0 "TP4-PreampOut1" H 3133 1368 50  0000 L CNN
 F 1 "Preamp Out" H 3133 1277 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 3275 1250 50  0001 C CNN
 F 3 "~" H 3275 1250 50  0001 C CNN
@@ -412,15 +404,13 @@ Text GLabel 4025 1275 0    50   Input ~ 0
 8VOut
 Text GLabel 8375 2825 0    50   Input ~ 0
 8VOut
-Text Notes 1675 2625 0    50   ~ 0
+Text Notes 1100 3050 0    50   ~ 0
 Note: Some Test Points will not be used
-Text Notes 1675 2725 0    50   ~ 0
-Guitar in Will be going to J1 not testpoint for guitar in
 $Comp
-L Connector:TestPoint TP18
+L Connector:TestPoint CW-D1
 U 1 1 61857F56
 P 1250 2025
-F 0 "TP18" H 1308 2143 50  0000 L CNN
+F 0 "CW-D1" H 1308 2143 50  0000 L CNN
 F 1 "DRIVE CW" H 1308 2052 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 1450 2025 50  0001 C CNN
 F 3 "~" H 1450 2025 50  0001 C CNN
@@ -428,10 +418,10 @@ F 3 "~" H 1450 2025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP20
+L Connector:TestPoint W-D1
 U 1 1 61858C1C
 P 2575 2000
-F 0 "TP20" H 2633 2118 50  0000 L CNN
+F 0 "W-D1" H 2633 2118 50  0000 L CNN
 F 1 "Drive W" H 2633 2027 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 2775 2000 50  0001 C CNN
 F 3 "~" H 2775 2000 50  0001 C CNN
@@ -439,10 +429,10 @@ F 3 "~" H 2775 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP25
+L Connector:TestPoint CCW-D1
 U 1 1 618591DB
 P 4000 1975
-F 0 "TP25" H 4058 2093 50  0000 L CNN
+F 0 "CCW-D1" H 4058 2093 50  0000 L CNN
 F 1 "Drive CCW" H 4058 2002 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4200 1975 50  0001 C CNN
 F 3 "~" H 4200 1975 50  0001 C CNN
@@ -450,10 +440,10 @@ F 3 "~" H 4200 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP29
+L Connector:TestPoint TP16-AuxIN1
 U 1 1 61859A33
 P 5775 1975
-F 0 "TP29" H 5833 2093 50  0000 L CNN
+F 0 "TP16-AuxIN1" H 5833 2093 50  0000 L CNN
 F 1 "AUX R" H 5833 2002 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5975 1975 50  0001 C CNN
 F 3 "~" H 5975 1975 50  0001 C CNN
@@ -461,10 +451,10 @@ F 3 "~" H 5975 1975 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP19
+L Connector:TestPoint CW-T1
 U 1 1 6185A46E
 P 1250 2350
-F 0 "TP19" H 1308 2468 50  0000 L CNN
+F 0 "CW-T1" H 1308 2468 50  0000 L CNN
 F 1 "Tone CW" H 1308 2377 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 1450 2350 50  0001 C CNN
 F 3 "~" H 1450 2350 50  0001 C CNN
@@ -472,10 +462,10 @@ F 3 "~" H 1450 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP21
+L Connector:TestPoint W-T1
 U 1 1 6185AA84
 P 2575 2325
-F 0 "TP21" H 2633 2443 50  0000 L CNN
+F 0 "W-T1" H 2633 2443 50  0000 L CNN
 F 1 "Tone W" H 2633 2352 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 2775 2325 50  0001 C CNN
 F 3 "~" H 2775 2325 50  0001 C CNN
@@ -483,10 +473,10 @@ F 3 "~" H 2775 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP24
+L Connector:TestPoint CCW-T1
 U 1 1 6185B206
 P 3975 2325
-F 0 "TP24" H 4033 2443 50  0000 L CNN
+F 0 "CCW-T1" H 4033 2443 50  0000 L CNN
 F 1 "Tone CCW" H 4033 2352 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4175 2325 50  0001 C CNN
 F 3 "~" H 4175 2325 50  0001 C CNN
@@ -494,23 +484,23 @@ F 3 "~" H 4175 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP26
+L Connector:TestPoint PresenceIN1
 U 1 1 6185B8AA
 P 5750 2300
-F 0 "TP26" H 5808 2418 50  0000 L CNN
+F 0 "PresenceIN1" H 5808 2418 50  0000 L CNN
 F 1 "Presence In" H 5808 2327 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5950 2300 50  0001 C CNN
 F 3 "~" H 5950 2300 50  0001 C CNN
 	1    5750 2300
 	1    0    0    -1  
 $EndComp
-Text Notes 1675 2875 0    50   ~ 0
+Text Notes 1125 3175 0    50   ~ 0
 I believe Presence out is GND on Dorrs file
 $Comp
-L Connector:TestPoint TP22
+L Connector:TestPoint PresenceOut1
 U 1 1 6185EE74
 P 3950 2650
-F 0 "TP22" H 4008 2768 50  0000 L CNN
+F 0 "PresenceOut1" H 4008 2768 50  0000 L CNN
 F 1 "Presence out" H 4008 2677 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4150 2650 50  0001 C CNN
 F 3 "~" H 4150 2650 50  0001 C CNN
@@ -518,10 +508,10 @@ F 3 "~" H 4150 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP27
+L Connector:TestPoint CW-V1
 U 1 1 6185F73D
 P 5750 2650
-F 0 "TP27" H 5808 2768 50  0000 L CNN
+F 0 "CW-V1" H 5808 2768 50  0000 L CNN
 F 1 "Volume CW" H 5808 2677 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5950 2650 50  0001 C CNN
 F 3 "~" H 5950 2650 50  0001 C CNN
@@ -529,10 +519,10 @@ F 3 "~" H 5950 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP23
+L Connector:TestPoint W-V1
 U 1 1 6185FF33
 P 3950 3000
-F 0 "TP23" H 4008 3118 50  0000 L CNN
+F 0 "W-V1" H 4008 3118 50  0000 L CNN
 F 1 "Volume W" H 4008 3027 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 4150 3000 50  0001 C CNN
 F 3 "~" H 4150 3000 50  0001 C CNN
@@ -540,10 +530,10 @@ F 3 "~" H 4150 3000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP28
+L Connector:TestPoint CCW-V1
 U 1 1 61860554
 P 5750 3000
-F 0 "TP28" H 5808 3118 50  0000 L CNN
+F 0 "CCW-V1" H 5808 3118 50  0000 L CNN
 F 1 "Volume CCW" H 5808 3027 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 5950 3000 50  0001 C CNN
 F 3 "~" H 5950 3000 50  0001 C CNN
@@ -600,36 +590,17 @@ Text GLabel 10375 1250 0    50   Input ~ 0
 EmitterFollowerOut
 Text GLabel 8375 2125 0    50   Input ~ 0
 AUXR
-Text GLabel 8375 3225 0    50   Input ~ 0
-noconnection
-Text GLabel 8375 3325 0    50   Input ~ 0
-noconnection
-Text GLabel 8375 3425 0    50   Input ~ 0
-noconnection
-$Comp
-L Mechanical:MountingHole_Pad H10
-U 1 1 618C794D
-P 10125 2125
-F 0 "H10" H 10225 2174 50  0000 L CNN
-F 1 "TP 15" H 10225 2083 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10125 2125 50  0001 C CNN
-F 3 "~" H 10125 2125 50  0001 C CNN
-	1    10125 2125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H11
-U 1 1 618C802D
-P 10150 2575
-F 0 "H11" H 10250 2624 50  0000 L CNN
-F 1 "TP 16" H 10250 2533 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Plated_Hole_D2.0mm" H 10150 2575 50  0001 C CNN
-F 3 "~" H 10150 2575 50  0001 C CNN
-	1    10150 2575
-	1    0    0    -1  
-$EndComp
-Text GLabel 10125 2225 0    50   Input ~ 0
-AuxIn
-Text GLabel 10150 2675 0    50   Input ~ 0
-AuxIn2
+Text Notes 1125 3275 0    50   ~ 0
+I dont have anything about Pilot.
+Text Notes 1125 3375 0    50   ~ 0
+Make sure diameter of TP is 1.75mm
+Text Notes 1125 3475 0    50   ~ 0
+Make sure TP16 and TP17 are used appropriately
+NoConn ~ 8875 3125
+NoConn ~ 8875 3225
+NoConn ~ 8875 3325
+NoConn ~ 8875 3425
+NoConn ~ 8375 3425
+NoConn ~ 8375 3325
+NoConn ~ 8375 3225
 $EndSCHEMATC
