@@ -353,7 +353,7 @@ Text GLabel 1775 1250 0    50   Input ~ 0
 GND
 Text GLabel 2350 1250 0    50   Input ~ 0
 12VDC
-Text GLabel 8375 2725 0    50   Input ~ 0
+Text GLabel 8375 2625 0    50   Input ~ 0
 12VDC
 $Comp
 L Connector:TestPoint TP4-PreampOut1
@@ -368,41 +368,41 @@ F 3 "~" H 3275 1250 50  0001 C CNN
 $EndComp
 Text GLabel 3075 1250 0    50   Input ~ 0
 PreampOut
-Text GLabel 8375 2225 0    50   Input ~ 0
+Text GLabel 8375 2325 0    50   Input ~ 0
 PreampOut
 Text GLabel 5050 1275 0    50   Input ~ 0
 GainStageOut
-Text GLabel 8375 2325 0    50   Input ~ 0
+Text GLabel 8375 2225 0    50   Input ~ 0
 GainStageOut
 Text GLabel 6475 1275 0    50   Input ~ 0
 EmitterBypassOut
-Text GLabel 8375 2425 0    50   Input ~ 0
+Text GLabel 8375 2525 0    50   Input ~ 0
 EmitterBypassOut
 Text GLabel 7825 1275 0    50   Input ~ 0
 6VOut
-Text GLabel 8375 2925 0    50   Input ~ 0
+Text GLabel 8375 2825 0    50   Input ~ 0
 6VOut
 Text GLabel 8850 1250 0    50   Input ~ 0
 NEGDriverOut
-Text GLabel 8375 3025 0    50   Input ~ 0
+Text GLabel 8375 3125 0    50   Input ~ 0
 NEGDriverOut
-Text GLabel 8375 2525 0    50   Input ~ 0
+Text GLabel 8375 2425 0    50   Input ~ 0
 EmitterFollowerOut
 Text GLabel 1275 1625 0    50   Input ~ 0
 POSDriverOut
-Text GLabel 8375 3125 0    50   Input ~ 0
+Text GLabel 8375 3025 0    50   Input ~ 0
 POSDriverOut
 Text GLabel 4025 1625 0    50   Input ~ 0
 SourceFollowerOut
-Text GLabel 8375 2625 0    50   Input ~ 0
+Text GLabel 8375 2725 0    50   Input ~ 0
 SourceFollowerOut
 Text GLabel 9300 1625 0    50   Input ~ 0
 GuitarIn
-Text GLabel 8375 2025 0    50   Input ~ 0
+Text GLabel 8375 2125 0    50   Input ~ 0
 GuitarIn
 Text GLabel 4025 1275 0    50   Input ~ 0
 8VOut
-Text GLabel 8375 2825 0    50   Input ~ 0
+Text GLabel 8375 2925 0    50   Input ~ 0
 8VOut
 Text Notes 1100 3050 0    50   ~ 0
 Note: Some Test Points will not be used
@@ -560,35 +560,31 @@ Text GLabel 3950 2650 0    50   Input ~ 0
 PresenceOUT
 Text GLabel 3950 3000 0    50   Input ~ 0
 VolumeW
-Text GLabel 8875 2025 2    50   Input ~ 0
-DRIVECCW
-Text GLabel 8875 2125 2    50   Input ~ 0
-DRIVEW
 Text GLabel 1250 2025 0    50   Input ~ 0
 DRIVECW
-Text GLabel 8875 2225 2    50   Input ~ 0
+Text GLabel 8875 2125 2    50   Input ~ 0
 DRIVECW
-Text GLabel 8875 2325 2    50   Input ~ 0
-TONECCW
 Text GLabel 8875 2425 2    50   Input ~ 0
+TONECCW
+Text GLabel 8875 2325 2    50   Input ~ 0
 TONEW
-Text GLabel 8875 2525 2    50   Input ~ 0
+Text GLabel 8875 2625 2    50   Input ~ 0
 TONECW
-Text GLabel 8875 2825 2    50   Input ~ 0
+Text GLabel 8875 2725 2    50   Input ~ 0
 VolumeCW
 Text GLabel 5750 3000 0    50   Input ~ 0
 VOLUMECCW
-Text GLabel 8875 2625 2    50   Input ~ 0
+Text GLabel 8875 2525 2    50   Input ~ 0
 VOLUMECCW
-Text GLabel 8875 2725 2    50   Input ~ 0
+Text GLabel 8875 2825 2    50   Input ~ 0
 VolumeW
-Text GLabel 8875 2925 2    50   Input ~ 0
-PresenceIn
 Text GLabel 8875 3025 2    50   Input ~ 0
+PresenceIn
+Text GLabel 8875 2925 2    50   Input ~ 0
 PresenceOUT
 Text GLabel 10375 1250 0    50   Input ~ 0
 EmitterFollowerOut
-Text GLabel 8375 2125 0    50   Input ~ 0
+Text GLabel 8375 2025 0    50   Input ~ 0
 AUXR
 Text Notes 1125 3275 0    50   ~ 0
 I dont have anything about Pilot.
@@ -600,7 +596,13 @@ NoConn ~ 8875 3125
 NoConn ~ 8875 3225
 NoConn ~ 8875 3325
 NoConn ~ 8875 3425
-NoConn ~ 8375 3425
+NoConn ~ 8875 2025
 NoConn ~ 8375 3325
 NoConn ~ 8375 3225
+Text Notes 1125 3575 0    50   ~ 0
+The points need to be mirrored with respect to the test board as we will be connecting from the bsckside
+Text GLabel 8875 2225 2    50   Input ~ 0
+DRIVEW
+Text GLabel 8375 3425 0    50   Input ~ 0
+DRIVECCW
 $EndSCHEMATC
